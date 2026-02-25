@@ -13,7 +13,6 @@ export default function Header() {
           opacity: '0.4'
         }}
       ></div>
-
       <div className="container position-relative z-1">
         <div className="row">
           <div className="col-lg-8">
