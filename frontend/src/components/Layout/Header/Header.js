@@ -4,7 +4,7 @@ export default function Header() {
 
   return (
     <header>
-      Cabecera
+      Cabecera de FontaWachi Instalaciones
     </header>
   )
 }

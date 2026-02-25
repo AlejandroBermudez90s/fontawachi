@@ -7,6 +7,7 @@ import BootstrapClient from '@/components/Bootstrap/BootstrapClient';
 
 import Cabecera from '@/components/Layout/Header/Header'
 import Footer from '@/components/Layout/Footer/Footer';
+import Navbar from '@/components/Layout/Navbar/Navbar';
 
 export const metadata = {
   title: "FontaWachi Instalaciones",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <BootstrapClient/>
 
         <Cabecera/>
+        <Navbar/>
         {children}
 
         <Footer/>
