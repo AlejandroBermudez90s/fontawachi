@@ -1,0 +1,11 @@
+{
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.tabs.enableAnimation": true,
+    "workbench.reduceMotion": "off",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true
+}
+

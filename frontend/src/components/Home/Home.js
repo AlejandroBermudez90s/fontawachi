@@ -37,7 +37,6 @@ export default function Home () {
         </div>
       </section>
 
-      {/* Banner de Acción Rápida */}
       <section className="bg-primary text-white py-5">
         <div className="container text-center">
           <h2 className="fw-bold">¿Tienes una avería urgente?</h2>
