@@ -1,0 +1,51 @@
+.navbarCentered {
+  justify-content: center;
+}
+
+.navCollapse {
+  justify-content: center;
+}
+
+.navList {
+  margin: 0 auto;
+  width: auto;
+}
+
+.navLink {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.navLink::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.2rem;
+  width: 100%;
+  height: 2px;
+  background-color: #0d6efd;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.navLink:hover {
+  color: #0d6efd !important;
+}
+
+.navLink:hover::before {
+  transform: scaleX(1);
+}
+
+@media (min-width: 992px) {
+  .navList {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contactItem {
+    position: absolute;
+    right: 0;
+  }
+}

@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
       <body>
         <BootstrapClient/>
 
-        <Cabecera/>
         <Navbar/>
+        <Cabecera/>
         {children}
 
         <Footer/>
