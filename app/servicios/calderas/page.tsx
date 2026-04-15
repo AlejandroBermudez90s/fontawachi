@@ -14,7 +14,6 @@ const serviceData = {
   subtitle: "Confort Termico",
   description: "Instalacion, mantenimiento y reparacion de calderas para mantener tu hogar caliente y tu sistema de calefaccion eficiente.",
   longDescription: "Aunque Mazarron disfruta de un clima templado, las noches de invierno requieren un buen sistema de calefaccion. En Fontawachi Instalaciones ofrecemos soluciones completas de calderas y calefaccion, desde la instalacion de calderas de gas y condensacion hasta sistemas de suelo radiante y radiadores. Somos instaladores autorizados y realizamos las revisiones obligatorias segun normativa. Nuestro objetivo es que disfrutes del maximo confort con el minimo consumo energetico.",
-  icon: "Flame",
   features: [
     {
       title: "Calderas de Condensacion",
@@ -59,7 +58,7 @@ export default function CalderasPage() {
   return (
     <>
       <Header />
-      <ServiceDetail {...serviceData} />
+      <ServiceDetail {...serviceData} icon={<Flame className="w-8 h-8"/>}/>
       <Footer />
     </>
   )

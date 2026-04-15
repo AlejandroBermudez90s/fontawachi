@@ -14,7 +14,6 @@ const serviceData = {
   subtitle: "Energia Renovable",
   description: "Aprovecha la energia del sol con nuestras instalaciones profesionales de paneles solares. Reduce tu factura electrica y tu huella de carbono.",
   longDescription: "En Fontawachi Instalaciones somos especialistas en el diseno e instalacion de sistemas de energia solar para viviendas y negocios en Mazarron y toda la Region de Murcia. Nuestra region cuenta con mas de 300 dias de sol al ano, lo que la convierte en el lugar ideal para aprovechar la energia solar. Nuestro equipo de tecnicos certificados te acompana desde el estudio inicial hasta la puesta en marcha, garantizando un sistema optimizado para tus necesidades especificas.",
-  icon: "Sun",
   features: [
     {
       title: "Estudio Personalizado",
@@ -60,7 +59,7 @@ export default function EnergiaSolarPage() {
   return (
     <>
       <Header />
-      <ServiceDetail {...serviceData} />
+      <ServiceDetail {...serviceData} icon={<Sun className="w-8 h-8" />}  />
       <Footer />
     </>
   )

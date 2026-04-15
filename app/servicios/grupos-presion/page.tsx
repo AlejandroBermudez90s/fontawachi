@@ -14,7 +14,6 @@ const serviceData = {
   subtitle: "Sistemas de Agua",
   description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presion y soluciones de sistemas de agua para un suministro constante.",
   longDescription: "La presion de agua insuficiente es un problema comun en muchas viviendas, especialmente en zonas altas o edificios antiguos. En Fontawachi Instalaciones somos especialistas en grupos de presion y sistemas de bombeo para garantizar un caudal y presion optimos en toda tu vivienda o negocio. Tambien instalamos descalcificadores y sistemas de tratamiento de agua para proteger tus electrodomesticos y tuberias de la cal, muy presente en el agua de la zona de Murcia.",
-  icon: "Droplets",
   features: [
     {
       title: "Grupos de Presion",
@@ -59,7 +58,7 @@ export default function GruposPresionPage() {
   return (
     <>
       <Header />
-      <ServiceDetail {...serviceData} />
+      <ServiceDetail {...serviceData} icon={<Droplets className="w-8 h-8"/>}/>
       <Footer />
     </>
   )

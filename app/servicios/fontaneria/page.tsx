@@ -14,7 +14,6 @@ const serviceData = {
   subtitle: "Servicios Integrales",
   description: "Desde reparaciones hasta instalaciones completas, nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
   longDescription: "El servicio de fontaneria es fundamental para el funcionamiento de cualquier vivienda o negocio. En Fontawachi Instalaciones contamos con un equipo de fontaneros profesionales con amplia experiencia en todo tipo de trabajos: desde una simple reparacion de grifo hasta la instalacion completa de un cuarto de bano. Ofrecemos servicio de urgencias para averias que no pueden esperar, como fugas de agua o atascos. Nuestro compromiso es resolver tu problema de forma rapida, limpia y con garantia.",
-  icon: "Wrench",
   features: [
     {
       title: "Reparacion de Fugas",
@@ -59,7 +58,7 @@ export default function FontaneriaPage() {
   return (
     <>
       <Header />
-      <ServiceDetail {...serviceData} />
+      <ServiceDetail {...serviceData} icon={<Wrench className="w-8 h-8"/>} />
       <Footer />
     </>
   )

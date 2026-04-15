@@ -14,7 +14,6 @@ const serviceData = {
   subtitle: "Climatizacion Profesional",
   description: "Mantente comodo todo el ano con nuestros servicios de instalacion, mantenimiento y reparacion de aire acondicionado de todas las marcas.",
   longDescription: "El clima mediterraneo de Mazarron hace imprescindible contar con un buen sistema de climatizacion. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros tecnicos estan certificados para garantizar instalaciones eficientes y duraderas. Tambien ofrecemos contratos de mantenimiento para asegurar el optimo funcionamiento de tu equipo.",
-  icon: "Wind",
   features: [
     {
       title: "Instalacion Split y Multisplit",
@@ -60,7 +59,7 @@ export default function AireAcondicionadoPage() {
   return (
     <>
       <Header />
-      <ServiceDetail {...serviceData} />
+      <ServiceDetail {...serviceData} icon={<Wind className="w-8 h-8"/> }/>
       <Footer />
     </>
   )
