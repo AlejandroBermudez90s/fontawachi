@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Clean Light Theme for Energy Services Company */
+    --background: 0 0% 100%; /* white */
+    --foreground: 220 13% 13%; /* #1e2328 dark gray */
+
+    --muted: 220 14% 96%; /* #f4f5f7 */
+    --muted-foreground: 220 9% 46%; /* #6b7280 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+
+    /* Primary - Navy Blue for Fontawachi */
+    --primary: 213 69% 27%; /* #153d6f navy blue */
+    --primary-foreground: 0 0% 100%; /* white */
+
+    /* Secondary - Navy Blue Dark */
+    --secondary: 213 69% 20%; /* #0f2d52 darker navy */
+    --secondary-foreground: 0 0% 100%; /* white */
+
+    /* Accent - Light Blue Gray */
+    --accent: 210 40% 96%;
+    --accent-foreground: 213 69% 27%;
+
+    --border: 214 32% 91%; /* #e2e8f0 */
+    --ring: 213 69% 27%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
