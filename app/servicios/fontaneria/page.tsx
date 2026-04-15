@@ -1,7 +1,7 @@
 import { Wrench } from "lucide-react"
-import { ServiceDetail } from "@/components/ServiceDetail"
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { ServiceDetail } from "@/components/service-detail"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {

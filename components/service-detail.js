@@ -1,39 +1,20 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft, Phone, CheckCircle, LucideIcon } from "lucide-react"
+import { ArrowLeft, Phone, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ImageSlider } from "@/components/ui/image-slider"
-
-interface ServiceFeature {
-  title: string
-  description: string
-}
-
-interface ServiceDetailProps {
-  title: string
-  subtitle: string
-  description: string
-  longDescription: string
-  icon: LucideIcon
-  features: ServiceFeature[]
-  benefits: string[]
-  images: {
-    src: string
-    alt: string
-  }[]
-}
 
 export function ServiceDetail({
   title,
   subtitle,
   description,
   longDescription,
-  icon: Icon,
+  icon,
   features,
   benefits,
   images,
-}: ServiceDetailProps) {
+}) {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -48,7 +29,7 @@ export function ServiceDetail({
           </Link>
           <div className="flex items-start gap-6">
             <div className="w-16 h-16 bg-primary-foreground/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-              <Icon className="w-8 h-8" />
+              {icon}
             </div>
             <div>
               <p className="text-primary-foreground/80 text-sm font-medium uppercase tracking-wider mb-2">

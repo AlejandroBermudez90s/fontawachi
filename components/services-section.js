@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Sun, Wind, Flame, Droplets, Zap, Wrench } from "lucide-react"
 
 const services = [
@@ -5,31 +6,37 @@ const services = [
     icon: Sun,
     title: "Energia Solar",
     description: "Aprovecha la energia del sol con nuestras instalaciones profesionales de paneles solares. Reduce tu factura electrica y tu huella de carbono.",
+    href: "/servicios/energia-solar",
   },
   {
     icon: Zap,
     title: "Sistemas Fotovoltaicos",
     description: "Diseno e instalacion completa de sistemas fotovoltaicos para maxima eficiencia energetica y ahorro a largo plazo.",
+    href: "/servicios/fotovoltaica",
   },
   {
     icon: Wind,
     title: "Aire Acondicionado",
     description: "Mantente comodo todo el ano con nuestros servicios de instalacion, mantenimiento y reparacion de aire acondicionado de todas las marcas.",
+    href: "/servicios/aire-acondicionado",
   },
   {
     icon: Flame,
     title: "Calderas y Calefaccion",
     description: "Instalacion, mantenimiento y reparacion de calderas para mantener tu hogar caliente y tu sistema de calefaccion eficiente.",
+    href: "/servicios/calderas",
   },
   {
     icon: Droplets,
     title: "Grupos de Presion",
     description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presion y soluciones de sistemas de agua para un suministro constante.",
+    href: "/servicios/grupos-presion",
   },
   {
     icon: Wrench,
     title: "Fontaneria",
     description: "Desde reparaciones hasta instalaciones completas, nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
+    href: "/servicios/fontaneria",
   },
 ]
 
@@ -51,16 +58,17 @@ export function ServicesSection() {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
-            <div
+            <Link
               key={service.title}
-              className="bg-background rounded-2xl p-8 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 group"
+              href={service.href}
+              className="bg-background rounded-2xl p-8 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 group cursor-pointer"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                 <service.icon className="w-7 h-7 text-primary" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
               <p className="text-muted-foreground leading-relaxed">{service.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
