@@ -9,7 +9,7 @@ export async function POST(request) {
     await resend.emails.send({
       from: "Fontawachi <contacto@fontawachi.com>",
       to: "fontawachi@gmail.com",
-      reply_to: formData.email,
+      reply_to: email,
       subject: `Nuevo presupuesto: ${service}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
