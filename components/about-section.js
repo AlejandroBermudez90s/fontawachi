@@ -13,18 +13,13 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Imagen */}
           <div className="relative">
-            <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
+            <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/technician-work.jpg"
+                src="/images/papa.jpg"
                 alt="Técnico profesional trabajando"
                 fill
-                className="object-cover"
+                className="object-contain p-4"
               />
-            </div>
-            {/* Tarjeta de Estadísticas */}
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-xl hidden sm:block">
-              <div className="text-4xl font-bold">20+</div>
-              <div className="text-sm opacity-90">Años de Excelencia</div>
             </div>
           </div>
 
@@ -35,14 +30,14 @@ export function AboutSection() {
               Expertos de Confianza en Soluciones Energéticas y del Hogar
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Con más de 20 años de experiencia, Fontawachi Instalaciones ha sido el socio de confianza 
-              para miles de hogares y negocios en Mazarrón y toda la Región de Murcia que buscan 
-              soluciones fiables en energía y servicios del hogar. Nuestro equipo de profesionales 
+              Con más de 20 años de experiencia, Fontawachi Instalaciones ha sido el socio de confianza
+              para miles de hogares y negocios en Mazarrón y toda la Región de Murcia que buscan
+              soluciones fiables en energía y servicios del hogar. Nuestro equipo de profesionales
               certificados está comprometido con ofrecer calidad excepcional y satisfacción al cliente.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Nos especializamos en sistemas de energía solar, instalaciones de climatización, 
-              servicios de calderas, sistemas de presión de agua y soluciones integrales de fontanería. 
+              Nos especializamos en sistemas de energía solar, instalaciones de climatización,
+              servicios de calderas, sistemas de presión de agua y soluciones integrales de fontanería.
               Nuestro compromiso con la excelencia y las prácticas sostenibles nos distingue en el sector.
             </p>
 
