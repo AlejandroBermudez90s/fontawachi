@@ -2,22 +2,18 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"] });
+const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Fontawachi Instalaciones | Energia Solar, Climatizacion y Fontaneria en Mazarron',
-  description: 'Servicios profesionales de energia solar, aire acondicionado, calderas, sistemas de presion de agua, instalaciones fotovoltaicas y fontaneria en Mazarron, Murcia.',
-  generator: 'v0.app',
+  title: 'Fontawachi Instalaciones | Energía Solar, Climatización y Fontanería en Mazarrón',
+  description: 'Servicios profesionales de energía solar, aire acondicionado, calderas, sistemas de presión de agua, instalaciones fotovoltaicas y fontanería en Mazarrón, Murcia.',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: '/icon.png',
+        sizes: '32x32',
+        type: 'image/png',
       },
       {
         url: '/icon.svg',
@@ -31,8 +27,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className="bg-background">
-      <body className="font-sans antialiased">
+      <body className={`${geist.className} ${geistMono.className} font-sans antialiased`}>
         {children}
+        
+        {/* Analytics solo se ejecuta en producción para no ensuciar datos de desarrollo */}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
