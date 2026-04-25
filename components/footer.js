@@ -26,9 +26,24 @@ const footerLinks = {
   ],
 }
 
+const TikTokIcon = ({ className }) => (
+  <svg 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={className}
+  >
+    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+  </svg>
+)
+
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/FontaWachi2.0/", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/fontawachi/", label: "Instagram" },
+  { icon: TikTokIcon, href: "https://www.tiktok.com/@fontawachi_instalaciones", label: "TikTok" }
 ]
 
 export function Footer() {
@@ -47,7 +62,7 @@ export function Footer() {
                   className="object-contain"
                 />
               </div>
-              <span className="font-semibold text-lg">Fontawachi</span>
+              <span className="font-semibold text-lg text-white">Fontawachi</span>
             </Link>
             <p className="text-secondary-foreground/70 leading-relaxed mb-6 max-w-sm">
               Tu socio de confianza para energía solar, climatización, fontanería y soluciones de 
@@ -60,8 +75,10 @@ export function Footer() {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
+                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 hover:text-white transition-all hover:scale-105"
                 >
                   <social.icon className="w-5 h-5" />
                 </a>

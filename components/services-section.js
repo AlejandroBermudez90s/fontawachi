@@ -1,26 +1,29 @@
 import Link from "next/link"
-import { 
-  Sun, 
-  Wind, 
-  Flame, 
-  Droplets, 
-  Zap, 
-  Wrench, 
-  ThermometerSun, 
-  Waves, 
-  ArrowRight 
+import Image from "next/image"
+import {
+  Sun,
+  Wind,
+  Flame,
+  Droplets,
+  Zap,
+  Wrench,
+  ThermometerSun,
+  Waves,
+  ArrowRight
 } from "lucide-react"
 
 const services = [
   {
     icon: Sun,
     title: "Energía Solar",
+    logo: "/logos/freesol.jpg",
     description: "Aprovecha la energía del sol con nuestras instalaciones profesionales de paneles solares. Reduce tu factura eléctrica y tu huella de carbono.",
     href: "/servicios/energia-solar",
   },
   {
     icon: Zap,
     title: "Sistemas Fotovoltaicos",
+    logo: "/logos/mazarron-solar.png",
     description: "Diseño e instalación completa de sistemas fotovoltaicos para máxima eficiencia energética y ahorro a largo plazo.",
     href: "/servicios/fotovoltaica",
   },
@@ -85,19 +88,37 @@ export function ServicesSection() {
               href={service.href}
               className="bg-background rounded-2xl p-6 border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 group cursor-pointer flex flex-col h-full"
             >
-              <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors shrink-0">
-                <service.icon className="w-6 h-6 text-primary" />
+              {/* Contenedor Superior: Icono y Logo más grande */}
+              <div className="flex justify-between items-center mb-6">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors shrink-0">
+                  <service.icon className="w-6 h-6 text-primary" />
+                </div>
+
+                {service.logo && (
+                  /* Aumentamos de w-20 a w-28 y de h-10 a h-14 */
+                  <div className="relative w-28 h-14 ml-2">
+                    <Image
+                      src={service.logo}
+                      alt={`Logo de ${service.title}`}
+                      fill
+                      className="object-contain"
+                      priority={service.title === "Energía Solar"}
+                    />
+                  </div>
+                )}
               </div>
-              
+
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                  {service.title}
+                </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                   {service.description}
                 </p>
               </div>
 
-              {/* Botón/Flecha de "Saber más" */}
-              <div className="flex items-center text-primary text-sm font-medium mt-auto">
+              {/* Footer de la card */}
+              <div className="flex items-center text-primary text-sm font-medium mt-auto pt-4 border-t border-border/50">
                 <span>Ver detalles</span>
                 <ArrowRight className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </div>
