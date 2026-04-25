@@ -3,6 +3,7 @@ import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Metadata } from "next"
+import { getServiceImages } from "@/hooks/use-services-images"
 
 export const metadata: Metadata = {
   title: "Sistemas de Tratamiento de Agua | Fontawachi Instalaciones",
@@ -49,9 +50,13 @@ const serviceData = {
     "Mejora el rendimiento y eficiencia de sistemas de calefacción y termos",
   ],
   images: [
-    { src: "/images/services/agua-1.jpg", alt: "Instalación de descalcificador" },
-    { src: "/images/services/agua-2.jpg", alt: "Sistema de ósmosis inversa bajo fregadero" },
-    { src: "/images/services/agua-3.jpg", alt: "Mantenimiento de filtros de agua" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua1.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua2.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua3.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua4.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua5.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua6.jpg", alt: "Instalación de descalcificador" },
+    { src: "/images/services/tratamiento-agua/tratamiento-agua7.jpg", alt: "Instalación de descalcificador" }
   ],
 }
 
