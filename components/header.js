@@ -88,9 +88,13 @@ export function Header() {
                 </Link>
               ))}
               <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
-                <Phone className="w-4 h-4" />
-                600 000 000
-              </a>
+              <Phone className="w-4 h-4" />
+              65 230 48 01
+            </a>
+            <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
+              <Phone className="w-4 h-4" />
+              616 80 32 67
+            </a>
               <Button asChild className="w-full">
                 <Link href="#contacto">Solicitar Presupuesto</Link>
               </Button>
