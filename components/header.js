@@ -10,7 +10,7 @@ import { Menu, X, Droplets, Phone } from "lucide-react"
 const navLinks = [
   { href: "#servicios", label: "Servicios" },
   { href: "#nosotros", label: "Nosotros" },
-  { href: "#por-que-elegirnos", label: "Por Que Elegirnos" },
+  { href: "#por-que-elegirnos", label: "¿Por qué elegirnos?" },
   { href: "#contacto", label: "Contacto" },
 ]
 
@@ -52,7 +52,11 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
               <Phone className="w-4 h-4" />
-              600 000 000
+              65 230 48 01
+            </a>
+            <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
+              <Phone className="w-4 h-4" />
+              616 80 32 67
             </a>
             <Button asChild>
               <Link href="#contacto">Solicitar Presupuesto</Link>
