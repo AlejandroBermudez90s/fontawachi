@@ -16,9 +16,6 @@ export function ServiceDetail({
 }) {
   return (
     <div className="min-h-screen bg-background">
-      {/* INYECCIÓN DE CSS: Esto fuerza a que CUALQUIER imagen dentro del slider 
-          se comporte como queremos, ignorando los estilos de la librería.
-      */}
       <style jsx global>{`
         .force-contain img {
           width: 100% !important;

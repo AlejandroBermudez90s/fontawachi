@@ -3,7 +3,6 @@ import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Metadata } from "next"
-import { getServiceImages } from "@/hooks/use-services-images"
 
 export const metadata: Metadata = {
   title: "Sistemas de Tratamiento de Agua | Fontawachi Instalaciones",

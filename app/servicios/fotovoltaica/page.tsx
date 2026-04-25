@@ -49,9 +49,15 @@ const serviceData = {
     "Control total de tu energía desde una aplicación móvil",
   ],
   images: [
-    { src: "/images/services/photovoltaic-1.jpg", alt: "Inversor fotovoltaico" },
-    { src: "/images/services/solar-1.jpg", alt: "Sistema fotovoltaico completo" },
-    { src: "/images/services/solar-2.jpg", alt: "Paneles fotovoltaicos instalados" },
+    { src: "/images/services/fotovoltaica/fotovoltaica1.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica2.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica3.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica4.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica5.jpg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica6.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica7.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica8.jpeg", alt: "Inversor fotovoltaico" },
+    { src: "/images/services/fotovoltaica/fotovoltaica9.jpg", alt: "Inversor fotovoltaico" },
   ],
 }
 

@@ -12,7 +12,7 @@ interface ImageSliderProps {
   }[]
 }
 
-export function ImageSlider({ images }: ImageSliderProps): JSX.Element {
+export function ImageSlider({ images }: ImageSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const goToPrevious = () => {

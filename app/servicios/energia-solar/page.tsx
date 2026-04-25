@@ -49,9 +49,13 @@ const serviceData = {
     "Acceso a bonificaciones fiscales y subvenciones",
   ],
   images: [
-    { src: "/images/services/solar-1.jpg", alt: "Instalación de paneles solares" },
-    { src: "/images/services/solar-2.jpg", alt: "Paneles solares en tejado" },
-    { src: "/images/services/solar-3.jpg", alt: "Vista aérea paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar1.jpg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar2.jpg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar3.jpg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar4.jpg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar5.jpg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar6.jpeg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar7.jpeg", alt: "Instalación de paneles solares" }
   ],
 }
 
