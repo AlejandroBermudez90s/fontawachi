@@ -10,33 +10,33 @@ export const metadata: Metadata = {
 }
 
 const serviceData = {
-  title: "Sistemas de Tratamiento de Agua",
-  subtitle: "Pureza y Calidad",
+  title: "Sistemas de tratamiento de agua",
+  subtitle: "Pureza y calidad",
   description: "Mejora la calidad del agua en tu hogar. Instalamos descalcificadores y sistemas de ósmosis inversa para un agua más pura, saludable y libre de cal.",
   longDescription: "En Fontawachi Instalaciones entendemos que la calidad del agua es fundamental para tu salud y el mantenimiento de tu hogar. En la zona de Mazarrón y la Región de Murcia, la dureza del agua es un problema común que afecta a tuberías y electrodomésticos. Ofrecemos soluciones avanzadas de tratamiento de agua, desde descalcificación integral para toda la vivienda hasta sistemas de ósmosis de alta eficiencia para consumo humano, garantizando un agua de mineralización débil directamente desde tu grifo.",
   features: [
     {
-      title: "Análisis de Dureza",
+      title: "Análisis de dureza",
       description: "Realizamos un test de dureza y calidad del agua en tu domicilio para recomendarte el sistema más adecuado.",
     },
     {
-      title: "Descalcificación Integral",
+      title: "Descalcificación integral",
       description: "Eliminamos la cal de toda tu red de agua para proteger tuberías, calderas, termos y grifería.",
     },
     {
-      title: "Ósmosis Inversa",
+      title: "Ósmosis inversa",
       description: "Sistemas de filtrado de múltiples etapas para obtener agua pura de baja mineralización, ideal para beber y cocinar.",
     },
     {
-      title: "Instalación sin Obras",
+      title: "Instalación sin obras",
       description: "Realizamos instalaciones limpias y compactas que se adaptan al espacio disponible en tu cocina o cuarto técnico.",
     },
     {
-      title: "Ahorro en Mantenimiento",
+      title: "Ahorro en mantenimiento",
       description: "El agua sin cal alarga la vida útil de tus electrodomésticos y reduce el consumo de detergentes y productos de limpieza.",
     },
     {
-      title: "Servicio de Postventa",
+      title: "Servicio de postventa",
       description: "Contamos con servicio de cambio de filtros y mantenimiento periódico para que tu agua sea siempre perfecta.",
     },
   ],

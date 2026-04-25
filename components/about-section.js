@@ -27,7 +27,7 @@ export function AboutSection() {
           <div>
             <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Sobre Nosotros</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 text-balance">
-              Expertos de Confianza en Soluciones Energéticas y del Hogar
+              Expertos de Confianza en Soluciones Energéticas y del hogar
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Con más de 20 años de experiencia, Fontawachi Instalaciones ha sido el socio de confianza

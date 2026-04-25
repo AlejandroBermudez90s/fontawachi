@@ -6,25 +6,21 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Calderas y Calefacción | Fontawachi Instalaciones",
-  description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gas, condensación, biomasa y sistemas de calefacción completos.",
+  description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gasoil y sistemas de calefacción completos.",
 }
 
 const serviceData = {
-  title: "Calderas y Calefacción",
-  subtitle: "Confort Térmico",
+  title: "Calderas y calefacción",
+  subtitle: "Confort térmico",
   description: "Instalación, mantenimiento y reparación de calderas para mantener tu hogar caliente y tu sistema de calefacción eficiente.",
   longDescription: "Aunque Mazarrón disfruta de un clima templado, las noches de invierno requieren un buen sistema de calefacción. En Fontawachi Instalaciones ofrecemos soluciones completas de calderas y calefacción, desde la instalación de calderas de gas y condensación hasta sistemas de suelo radiante y radiadores. Somos instaladores autorizados y realizamos las revisiones obligatorias según la normativa vigente. Nuestro objetivo es que disfrutes del máximo confort con el mínimo consumo energético.",
   features: [
     {
-      title: "Calderas de Condensación",
-      description: "La opción más eficiente del mercado, con ahorros de hasta un 30% respecto a calderas convencionales.",
+      title: "Calderas de gasoil",
+      description: "Instalación y mantenimiento de calderas de gasoil para zonas sin acceso a gas natural, con soluciones eficientes y duraderas.",
     },
     {
-      title: "Calderas de Gas",
-      description: "Instalación y mantenimiento de calderas de gas natural y propano.",
-    },
-    {
-      title: "Suelo Radiante",
+      title: "Suelo radiante",
       description: "Sistema de calefacción invisible que proporciona un calor uniforme y una sensación térmica muy agradable.",
     },
     {
@@ -36,7 +32,7 @@ const serviceData = {
       description: "Cumplimos con la normativa del RITE para garantizar la seguridad y eficiencia de tu instalación.",
     },
     {
-      title: "Reparación Urgente",
+      title: "Reparación urgente",
       description: "Servicio rápido y eficaz para que no te quedes sin calefacción ni agua caliente cuando más lo necesitas.",
     },
   ],

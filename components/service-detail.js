@@ -105,7 +105,7 @@ export function ServiceDetail({
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button asChild size="lg" className="h-14 px-8 text-md shadow-lg shadow-primary/20">
-                <Link href="/#contacto">Solicitar Presupuesto Gratis</Link>
+                <Link href="/#contacto">Contratar</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="h-14 px-8 text-md">
                 <a href="tel:+34652304801">

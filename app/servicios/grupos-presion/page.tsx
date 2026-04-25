@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 }
 
 const serviceData = {
-  title: "Grupos de Presión",
-  subtitle: "Sistemas de Agua",
+  title: "Grupos de presión",
+  subtitle: "Sistemas de agua",
   description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presión y soluciones de sistemas de agua para un suministro constante.",
   longDescription: "La presión de agua insuficiente es un problema común en muchas viviendas, especialmente en zonas altas o edificios antiguos. En Fontawachi Instalaciones somos especialistas en grupos de presión y sistemas de bombeo para garantizar un caudal y presión óptimos en toda tu vivienda o negocio. También instalamos descalcificadores y sistemas de tratamiento de agua para proteger tus electrodomésticos y tuberías de la cal, muy presente en el agua de la zona de Murcia.",
   features: [
@@ -32,10 +32,6 @@ const serviceData = {
       description: "Para pozos y depósitos subterráneos con la máxima eficiencia energética.",
     },
     {
-      title: "Sistemas de Riego",
-      description: "Automatización de riego para jardines y cultivos de forma profesional.",
-    },
-    {
       title: "Ósmosis Inversa",
       description: "Sistemas de purificación de agua avanzada para consumo doméstico.",
     },
@@ -49,8 +45,10 @@ const serviceData = {
     "Solución definitiva para viviendas en zonas altas",
   ],
   images: [
-    { src: "/images/services/pressure-1.jpg", alt: "Grupo de presión instalado" },
-    { src: "/images/services/pressure-2.jpg", alt: "Sistema de bombeo de agua" },
+    { src: "/images/services/grupos-presion/grupo1.jpeg", alt: "Grupo de presión instalado" },
+    { src: "/images/services/grupos-presion/grupo2.jpeg", alt: "Grupo de presión instalado" },
+    { src: "/images/services/grupos-presion/grupo3.jpeg", alt: "Grupo de presión instalado" },
+    { src: "/images/services/grupos-presion/grupo4.jpeg", alt: "Grupo de presión instalado" },
   ],
 }
 

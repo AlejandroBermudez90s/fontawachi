@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 
 const serviceData = {
   title: "Aerotermia",
-  subtitle: "Climatización Inteligente",
+  subtitle: "Climatización inteligente",
   description: "La tecnología del futuro hoy. Climatiza tu hogar y obtén agua caliente con la máxima eficiencia utilizando una bomba de calor aerotérmica.",
   longDescription: "En Fontawachi Instalaciones somos expertos en sistemas de aerotermia, la solución de climatización más eficiente y sostenible del mercado actual. La aerotermia extrae hasta el 75% de la energía del aire exterior para calentar o enfriar tu hogar y producir agua caliente sanitaria (ACS). Es el sistema ideal para combinar con placas solares fotovoltaicas, permitiéndote alcanzar un nivel de ahorro energético sin precedentes en la Región de Murcia.",
   features: [
     {
-      title: "Instaladores Autorizados por el RITE",
+      title: "Instaladores autorizados por el RITE",
       description: "Profesionales certificados para instalar y mantener tus sistemas de climatización con la máxima garantía legal y eficiencia técnica.",
     },
     {
@@ -25,19 +25,19 @@ const serviceData = {
     },
     
     {
-      title: "Integración con Suelo Radiante",
+      title: "Integración con suelo radiante",
       description: "Expertos en la combinación de aerotermia con suelo radiante o fancoils para un confort térmico inigualable.",
     },
     {
-      title: "Energía Renovable",
+      title: "Energía renovable",
       description: "Considerada energía limpia por la Unión Europea, reduce drásticamente las emisiones de CO2 de tu vivienda.",
     },
     {
-      title: "Control Wifi Avanzado",
+      title: "Control Wifi avanzado",
       description: "Gestiona la temperatura de cada zona de tu casa y programa el consumo desde cualquier lugar con tu smartphone.",
     },
     {
-      title: "Sustitución de Calderas",
+      title: "Sustitución de calderas",
       description: "Realizamos la transición de sistemas antiguos de gas o gasoil a aerotermia de forma rápida y profesional.",
     },
   ],

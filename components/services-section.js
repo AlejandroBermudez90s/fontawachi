@@ -15,21 +15,21 @@ import {
 const services = [
   {
     icon: Sun,
-    title: "Energía Solar",
+    title: "Energía solar",
     logo: "/logos/freesol.jpg",
     description: "Aprovecha la energía del sol con nuestras instalaciones profesionales de paneles solares. Reduce tu factura eléctrica y tu huella de carbono.",
     href: "/servicios/energia-solar",
   },
   {
     icon: Zap,
-    title: "Sistemas Fotovoltaicos",
+    title: "Sistemas fotovoltaicos",
     logo: "/logos/mazarron-solar.png",
     description: "Diseño e instalación completa de sistemas fotovoltaicos para máxima eficiencia energética y ahorro a largo plazo.",
     href: "/servicios/fotovoltaica",
   },
   {
     icon: Wind,
-    title: "Aire Acondicionado",
+    title: "Aire acondicionado",
     description: "Mantente cómodo todo el año con nuestros servicios de instalación, mantenimiento y reparación de aire acondicionado de todas las marcas.",
     href: "/servicios/aire-acondicionado",
   },
@@ -41,28 +41,28 @@ const services = [
   },
   {
     icon: Flame,
-    title: "Calderas y Calefacción",
+    title: "Calderas y calefacción",
     description: "Instalación, mantenimiento y reparación de calderas para mantener tu hogar caliente y tu sistema de calefacción eficiente.",
     href: "/servicios/calderas",
   },
   {
+    icon: Wrench,
+    title: "Localización de fugas de agua y fontanería",
+    description: "Localización y reparación de fugas de agua, instalaciones completas y mantenimiento. Nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
+    href: "/servicios/fontaneria",
+  },
+  {
     icon: Waves,
-    title: "Sistemas de Tratamiento de Agua",
+    title: "Sistemas de tratamiento de agua",
     description: "Mejora la calidad del agua en tu hogar. Instalamos descalcificadores y sistemas de ósmosis inversa para un agua más pura y saludable.",
     href: "/servicios/tratamiento-agua",
   },
   {
     icon: Droplets,
-    title: "Grupos de Presión",
+    title: "Grupos de presión",
     description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presión y soluciones de sistemas de agua para un suministro constante.",
     href: "/servicios/grupos-presion",
-  },
-  {
-    icon: Wrench,
-    title: "Fontanería",
-    description: "Desde reparaciones hasta instalaciones completas, nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
-    href: "/servicios/fontaneria",
-  },
+  }
 ]
 
 export function ServicesSection() {
@@ -71,9 +71,9 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Nuestros Servicios</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Nuestros servicios</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-            Especialistas en Instalaciones y Mantenimiento
+            Especialistas en instalaciones y mantenimiento
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Cubrimos todas las necesidades técnicas de tu inmueble con tecnología de vanguardia y atención personalizada.

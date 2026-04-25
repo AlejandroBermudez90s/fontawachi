@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 }
 
 const serviceData = {
-  title: "Sistemas Fotovoltaicos",
-  subtitle: "Autoconsumo Inteligente",
+  title: "Sistemas fotovoltaicos",
+  subtitle: "Autoconsumo inteligente",
   description: "Diseño e instalación completa de sistemas fotovoltaicos para máxima eficiencia energética y ahorro a largo plazo.",
   longDescription: "Los sistemas fotovoltaicos son la solución más avanzada para generar tu propia electricidad. En Fontawachi ofrecemos soluciones completas de autoconsumo fotovoltaico, desde instalaciones básicas hasta sistemas con baterías de almacenamiento y gestión inteligente de energía. Trabajamos con las mejores marcas del mercado y nuestros ingenieros diseñan cada instalación para maximizar el aprovechamiento de la energía solar en tu ubicación específica.",
   features: [

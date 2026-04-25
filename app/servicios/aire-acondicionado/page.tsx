@@ -10,21 +10,21 @@ export const metadata: Metadata = {
 }
 
 const serviceData = {
-  title: "Aire Acondicionado",
-  subtitle: "Climatización Profesional",
+  title: "Aire acondicionado",
+  subtitle: "Climatización profesional",
   description: "Mantente cómodo todo el año con nuestros servicios de instalación, mantenimiento y reparación de aire acondicionado de todas las marcas.",
   longDescription: "El clima mediterráneo de Mazarrón hace imprescindible contar con un buen sistema de climatización. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros técnicos están certificados para garantizar instalaciones eficientes y duraderas. También ofrecemos contratos de mantenimiento para asegurar el óptimo funcionamiento de tu equipo.",
   features: [
     {
-      title: "Instaladores Autorizados por el RITE",
+      title: "Instaladores autorizados por el RITE",
       description: "Profesionales certificados para instalar y mantener tus sistemas de climatización con la máxima garantía legal y eficiencia técnica.",
     },
     {
-      title: "Instalación Split y Multisplit",
+      title: "Instalación split y multisplit",
       description: "Sistemas individuales o para climatizar varias estancias con una sola unidad exterior.",
     },
     {
-      title: "Aire por Conductos",
+      title: "Aire por conductos",
       description: "Solución integrada para climatizar toda la vivienda de forma uniforme y estética.",
     },
     {
@@ -33,11 +33,11 @@ const serviceData = {
     },
     
     {
-      title: "Mantenimiento Preventivo",
-      description: "Limpieza de filtros, revisión de niveles de gas y comprobación general para máxima eficiencia.",
+      title: "Mantenimiento preventivo",
+      description: "Limpieza de filtros, revisión y recarga de niveles de gas y comprobación general para máxima eficiencia.",
     },
     {
-      title: "Bomba de Calor",
+      title: "Bomba de calor",
       description: "Equipos que ofrecen frío en verano y calor en invierno con la máxima eficiencia energética.",
     },
   ],
