@@ -28,7 +28,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Horario",
-    value: "Lun-Vie: 8:00-18:00 | Urgencias: 24/7",
+    value: "Lun-Vie: 8:00-18:00",
     href: "#",
   },
 ]

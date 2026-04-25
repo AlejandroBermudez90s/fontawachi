@@ -1,4 +1,4 @@
-import { Shield, Clock, Award, Users, Leaf, Headphones } from "lucide-react"
+import { Shield, Clock, Award, Users, Leaf } from "lucide-react"
 
 const reasons = [
   {
@@ -25,12 +25,7 @@ const reasons = [
     icon: Leaf,
     title: "Ecologico",
     description: "Comprometidos con practicas sostenibles y soluciones de eficiencia energetica.",
-  },
-  {
-    icon: Headphones,
-    title: "Atencion 24/7",
-    description: "Soporte de emergencia las 24 horas cuando mas nos necesitas.",
-  },
+  }
 ]
 
 export function WhyChooseUs() {

@@ -3,8 +3,7 @@ import Image from "next/image"
 const stats = [
   { value: "15+", label: "Anos de Experiencia" },
   { value: "2000+", label: "Proyectos Realizados" },
-  { value: "98%", label: "Clientes Satisfechos" },
-  { value: "24/7", label: "Servicio de Urgencias" },
+  { value: "98%", label: "Clientes Satisfechos" }
 ]
 
 export function AboutSection() {

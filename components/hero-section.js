@@ -5,8 +5,7 @@ import { ArrowRight, CheckCircle } from "lucide-react"
 
 const highlights = [
   "Profesionales Cualificados",
-  "Servicio de Urgencias 24/7",
-  "Presupuesto Sin Compromiso",
+  "Presupuesto Sin Compromiso"
 ]
 
 export function HeroSection() {
