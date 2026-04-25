@@ -1,5 +1,15 @@
 import Link from "next/link"
-import { Sun, Wind, Flame, Droplets, Zap, Wrench, ThermometerSun, Waves } from "lucide-react"
+import { 
+  Sun, 
+  Wind, 
+  Flame, 
+  Droplets, 
+  Zap, 
+  Wrench, 
+  ThermometerSun, 
+  Waves, 
+  ArrowRight 
+} from "lucide-react"
 
 const services = [
   {
@@ -34,7 +44,7 @@ const services = [
   },
   {
     icon: Waves,
-    title: "Sistemas de tratamiento de agua",
+    title: "Sistemas de Tratamiento de Agua",
     description: "Mejora la calidad del agua en tu hogar. Instalamos descalcificadores y sistemas de ósmosis inversa para un agua más pura y saludable.",
     href: "/servicios/tratamiento-agua",
   },
@@ -67,7 +77,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        {/* Services Grid: 4 columnas para 2 filas perfectas */}
+        {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
             <Link
@@ -78,10 +88,19 @@ export function ServicesSection() {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors shrink-0">
                 <service.icon className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {service.description}
-              </p>
+              
+              <div className="flex-grow">
+                <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {service.description}
+                </p>
+              </div>
+
+              {/* Botón/Flecha de "Saber más" */}
+              <div className="flex items-center text-primary text-sm font-medium mt-auto">
+                <span>Ver detalles</span>
+                <ArrowRight className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+              </div>
             </Link>
           ))}
         </div>

@@ -16,13 +16,14 @@ const serviceData = {
   longDescription: "En Fontawachi Instalaciones somos expertos en sistemas de aerotermia, la solución de climatización más eficiente y sostenible del mercado actual. La aerotermia extrae hasta el 75% de la energía del aire exterior para calentar o enfriar tu hogar y producir agua caliente sanitaria (ACS). Es el sistema ideal para combinar con placas solares fotovoltaicas, permitiéndote alcanzar un nivel de ahorro energético sin precedentes en la Región de Murcia.",
   features: [
     {
+      title: "Instaladores Autorizados por el RITE",
+      description: "Profesionales certificados para instalar y mantener tus sistemas de climatización con la máxima garantía legal y eficiencia técnica.",
+    },
+    {
       title: "Sistema 3 en 1",
       description: "Un solo equipo para calefacción en invierno, aire acondicionado en verano y agua caliente durante todo el año.",
     },
-    {
-      title: "Alta Eficiencia (COP)",
-      description: "Por cada kW eléctrico consumido, el sistema genera hasta 4 kW de energía térmica gratuita.",
-    },
+    
     {
       title: "Integración con Suelo Radiante",
       description: "Expertos en la combinación de aerotermia con suelo radiante o fancoils para un confort térmico inigualable.",

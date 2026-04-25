@@ -16,6 +16,10 @@ const serviceData = {
   longDescription: "El clima mediterráneo de Mazarrón hace imprescindible contar con un buen sistema de climatización. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros técnicos están certificados para garantizar instalaciones eficientes y duraderas. También ofrecemos contratos de mantenimiento para asegurar el óptimo funcionamiento de tu equipo.",
   features: [
     {
+      title: "Instaladores Autorizados por el RITE",
+      description: "Profesionales certificados para instalar y mantener tus sistemas de climatización con la máxima garantía legal y eficiencia técnica.",
+    },
+    {
       title: "Instalación Split y Multisplit",
       description: "Sistemas individuales o para climatizar varias estancias con una sola unidad exterior.",
     },
@@ -27,10 +31,7 @@ const serviceData = {
       title: "Sistemas Inverter",
       description: "Tecnología de ahorro energético que adapta la potencia a las necesidades reales.",
     },
-    {
-      title: "Reparación Urgente",
-      description: "Servicio de reparación rápida para que no te quedes sin climatización cuando más la necesitas.",
-    },
+    
     {
       title: "Mantenimiento Preventivo",
       description: "Limpieza de filtros, revisión de niveles de gas y comprobación general para máxima eficiencia.",

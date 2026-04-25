@@ -4,14 +4,15 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle } from "lucide-react"
 
 const highlights = [
-  "Profesionales Cualificados",
-  "Presupuesto Sin Compromiso"
+  "Profesionales cualificados",
+  "Empresa Instaladora Autorizada",
+  "Garantía de Instalación Oficial"
 ]
 
 export function HeroSection() {
   return (
     <section className="relative pt-20 lg:pt-24">
-      {/* Hero Image */}
+      {/* Imagen Hero */}
       <div className="relative h-[60vh] lg:h-[80vh] min-h-[500px]">
         <Image
           src="/hero-image.webp"
@@ -22,19 +23,19 @@ export function HeroSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-transparent" />
         
-        {/* Hero Content */}
+        {/* Contenido Hero */}
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance">
-                Tu Solucion Integral en Energia y Hogar
+                Tu Solución Integral en Energía y Hogar
               </h1>
               <p className="mt-6 text-lg text-white/90 leading-relaxed max-w-xl">
-                Instalaciones solares, climatizacion, fontaneria y sistemas de presion de agua 
-                para viviendas y negocios en Mazarron y toda la Region de Murcia.
+                Instalaciones solares, climatización, fontanería y sistemas de presión de agua 
+                para viviendas y negocios en Mazarrón y toda la Región de Murcia.
               </p>
               
-              {/* Highlights */}
+              {/* Puntos destacados */}
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 {highlights.map((item) => (
                   <div key={item} className="flex items-center gap-2 text-white/90">
@@ -44,7 +45,7 @@ export function HeroSection() {
                 ))}
               </div>
 
-              {/* CTAs */}
+              {/* Botones de acción */}
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link href="#contacto">
