@@ -13,7 +13,7 @@ const serviceData = {
   title: "Aire acondicionado",
   subtitle: "Climatización profesional",
   description: "Mantente cómodo todo el año con nuestros servicios de instalación, mantenimiento y reparación de aire acondicionado de todas las marcas.",
-  longDescription: "El clima mediterráneo de Mazarrón hace imprescindible contar con un buen sistema de climatización. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros técnicos están certificados para garantizar instalaciones eficientes y duraderas. También ofrecemos contratos de mantenimiento para asegurar el óptimo funcionamiento de tu equipo.",
+  longDescription: "El clima mediterráneo de Mazarrón hace imprescindible contar con un buen sistema de climatización. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Kosner, Midea) y nuestros técnicos están certificados para garantizar instalaciones eficientes y duraderas. También ofrecemos contratos de mantenimiento para asegurar el óptimo funcionamiento de tu equipo.",
   features: [
     {
       title: "Instaladores autorizados por el RITE",
@@ -52,6 +52,11 @@ const serviceData = {
   images: [
     { src: "/images/services/aire-acondicionado/aire2.jpg", alt: "Instalación de aire acondicionado" },
     { src: "/images/services/aire-acondicionado/aire1.jpg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire3.jpeg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire4.jpeg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire5.jpeg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire6.jpeg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire7.jpeg", alt: "Instalación de aire acondicionado" },
   ],
 }
 
