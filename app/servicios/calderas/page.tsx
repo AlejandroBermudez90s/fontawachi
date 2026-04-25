@@ -49,8 +49,10 @@ const serviceData = {
     "Opciones de financiación flexible para tu nueva instalación",
   ],
   images: [
-    { src: "/images/services/boiler-1.jpg", alt: "Caldera moderna instalada" },
-    { src: "/images/services/boiler-2.jpg", alt: "Mantenimiento profesional de caldera" },
+    { src: "/images/services/calderas-calefaccion/caldera1.jpg", alt: "Caldera moderna instalada" },
+    { src: "/images/services/calderas-calefaccion/caldera2.jpg", alt: "Caldera moderna instalada" },
+    { src: "/images/services/calderas-calefaccion/caldera3.jpg", alt: "Caldera moderna instalada" },
+    { src: "/images/services/calderas-calefaccion/caldera4.jpg", alt: "Caldera moderna instalada" },
   ],
 }
 

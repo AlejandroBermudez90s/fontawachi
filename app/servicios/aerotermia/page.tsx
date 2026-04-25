@@ -50,9 +50,7 @@ const serviceData = {
     "Sistema extremadamente silencioso y de larga vida útil",
   ],
   images: [
-    { src: "/images/services/aerotermia-1.jpg", alt: "Unidad exterior de aerotermia" },
-    { src: "/images/services/aerotermia-2.jpg", alt: "Instalación técnica de bomba de calor" },
-    { src: "/images/services/aerotermia-3.jpg", alt: "Depósito de agua caliente para aerotermia" },
+    { src: "/images/services/aerotermia/aerotermia1.jpg", alt: "Unidad exterior de aerotermia" },
   ],
 }
 

@@ -8,6 +8,7 @@ import { ImageSlider } from "@/components/ui/image-slider"
 export function ServiceDetail({
   title,
   subtitle,
+  description,
   longDescription,
   icon,
   features,
@@ -54,6 +55,9 @@ export function ServiceDetail({
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-balance">
                 {title}
               </h1>
+              <p className="mt-4 text-lg text-primary-foreground/90 max-w-2xl">
+                {description}
+              </p>
             </div>
           </div>
         </div>

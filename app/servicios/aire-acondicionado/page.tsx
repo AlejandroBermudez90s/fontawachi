@@ -50,9 +50,8 @@ const serviceData = {
     "Servicio técnico profesional de las principales marcas del sector",
   ],
   images: [
-    { src: "/images/services/ac-1.jpg", alt: "Instalación de aire acondicionado" },
-    { src: "/images/services/ac-2.jpg", alt: "Unidad exterior de aire acondicionado" },
-    { src: "/images/services/ac-3.jpg", alt: "Mantenimiento de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire2.jpg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/aire-acondicionado/aire1.jpg", alt: "Instalación de aire acondicionado" },
   ],
 }
 

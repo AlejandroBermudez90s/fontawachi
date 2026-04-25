@@ -55,7 +55,8 @@ const serviceData = {
     { src: "/images/services/energia-solar/energia-solar4.jpg", alt: "Instalación de paneles solares" },
     { src: "/images/services/energia-solar/energia-solar5.jpg", alt: "Instalación de paneles solares" },
     { src: "/images/services/energia-solar/energia-solar6.jpeg", alt: "Instalación de paneles solares" },
-    { src: "/images/services/energia-solar/energia-solar7.jpeg", alt: "Instalación de paneles solares" }
+    { src: "/images/services/energia-solar/energia-solar7.jpeg", alt: "Instalación de paneles solares" },
+    { src: "/images/services/energia-solar/energia-solar8.jpg", alt: "Instalación de paneles solares" }
   ],
 }
 
