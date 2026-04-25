@@ -22,19 +22,19 @@ export function HeroSection() {
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-transparent" />
-        
+
         {/* Contenido Hero */}
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance">
-                Tu Solución Integral en Energía y Hogar
+                Solución integral en energía y hogar
               </h1>
               <p className="mt-6 text-lg text-white/90 leading-relaxed max-w-xl">
-                Instalaciones solares, climatización, fontanería y sistemas de presión de agua 
-                para viviendas y negocios en Mazarrón y toda la Región de Murcia.
+                Soluciones profesionales en energía solar, climatización y aerotermia.
+                Mejora el confort de tu hogar y reduce tu consumo energético con expertos de confianza.
               </p>
-              
+
               {/* Puntos destacados */}
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 {highlights.map((item) => (
@@ -49,7 +49,7 @@ export function HeroSection() {
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link href="#contacto">
-                    Pedir Presupuesto Gratis
+                    Contratar
                     <ArrowRight className="ml-2 w-4 h-4" />
                   </Link>
                 </Button>

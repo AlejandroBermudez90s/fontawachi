@@ -59,7 +59,7 @@ export function Header() {
                 616 80 32 67
               </a>
             <Button asChild>
-              <Link href="#contacto">Solicitar Presupuesto</Link>
+              <Link href="#contacto">Contratar</Link>
             </Button>
           </div>
 

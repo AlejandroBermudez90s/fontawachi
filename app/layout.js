@@ -6,7 +6,7 @@ const geist = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Fontawachi Instalaciones | Energía Solar, Climatización y Fontanería en Mazarrón',
+  title: 'Fontawachi Instalaciones',
   description: 'Servicios profesionales de energía solar, aire acondicionado, calderas, sistemas de presión de agua, instalaciones fotovoltaicas y fontanería en Mazarrón, Murcia.',
   icons: {
     icon: [
