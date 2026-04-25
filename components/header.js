@@ -24,7 +24,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="relative w-20 h-20">
-              <Image 
+              <Image
                 src="/logo-fontawachi.png"
                 alt="Logo Fontawachi"
                 fill
@@ -50,14 +50,14 @@ export function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
-              <Phone className="w-4 h-4" />
-              65 230 48 01
-            </a>
-            <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
-              <Phone className="w-4 h-4" />
-              616 80 32 67
-            </a>
+            <a href="tel:+34 652 30 48 01" className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <Phone className="w-4 h-4" />
+                652 30 48 01
+              </a>
+              <a href="tel:+34 616 80 32 67" className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <Phone className="w-4 h-4" />
+                616 80 32 67
+              </a>
             <Button asChild>
               <Link href="#contacto">Solicitar Presupuesto</Link>
             </Button>
@@ -87,14 +87,14 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
-              <Phone className="w-4 h-4" />
-              65 230 48 01
-            </a>
-            <a href="tel:+34600000000" className="flex items-center gap-2 text-sm font-medium text-foreground">
-              <Phone className="w-4 h-4" />
-              616 80 32 67
-            </a>
+              <a href="tel:+34 652 30 48 01" className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <Phone className="w-4 h-4" />
+                652 30 48 01
+              </a>
+              <a href="tel:+34 616 80 32 67" className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <Phone className="w-4 h-4" />
+                616 80 32 67
+              </a>
               <Button asChild className="w-full">
                 <Link href="#contacto">Solicitar Presupuesto</Link>
               </Button>

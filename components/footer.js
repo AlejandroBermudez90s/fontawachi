@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link"
-import { Droplets, Facebook, Instagram } from "lucide-react"
+import Image from "next/image" // Importamos Image
+import { Facebook, Instagram } from "lucide-react" // Quitamos Droplets
 
 const footerLinks = {
   services: [
@@ -35,8 +38,14 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
-                <Droplets className="w-6 h-6 text-white" />
+              {/* Contenedor del Logo igual que en el Header */}
+              <div className="relative w-20 h-20">
+                <Image 
+                  src="/logo-fontawachi.png"
+                  alt="Logo Fontawachi"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <span className="font-semibold text-lg">Fontawachi</span>
             </Link>
@@ -60,7 +69,7 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Services Links */}
+          {/* Resto de las columnas de links (sin cambios) */}
           <div>
             <h4 className="font-semibold mb-4">Servicios</h4>
             <ul className="space-y-3">
@@ -77,7 +86,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Company Links */}
           <div>
             <h4 className="font-semibold mb-4">Empresa</h4>
             <ul className="space-y-3">
@@ -94,7 +102,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Support Links */}
           <div>
             <h4 className="font-semibold mb-4">Ayuda</h4>
             <ul className="space-y-3">
