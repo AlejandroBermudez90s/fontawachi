@@ -25,6 +25,11 @@ const reasons = [
     icon: Leaf,
     title: "Ecologico",
     description: "Comprometidos con practicas sostenibles y soluciones de eficiencia energetica.",
+  },
+  {
+    icon: Leaf,
+    title: "Síguenos",
+    description: "Redes sociales asujdbj adsjbas ja kajweba jkbsba akasdn ejkb asjk",
   }
 ]
 

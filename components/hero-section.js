@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Hero Image */}
       <div className="relative h-[60vh] lg:h-[80vh] min-h-[500px]">
         <Image
-          src="/images/solar-hero.jpg"
+          src="/hero-image.webp"
           alt="Paneles solares en tejado residencial"
           fill
           className="object-cover"
