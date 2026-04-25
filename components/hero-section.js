@@ -28,11 +28,10 @@ export function HeroSection() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance">
-                Solución integral en energía y hogar
+                Tu hogar, más eficiente y sostenible
               </h1>
               <p className="mt-6 text-lg text-white/90 leading-relaxed max-w-xl">
-                Soluciones profesionales en energía solar, climatización y aerotermia.
-                Mejora el confort de tu hogar y reduce tu consumo energético con expertos de confianza.
+                Expertos en energía solar, climatización y fontanería. Llevamos soluciones de confort a viviendas y empresas en Mazarrón y toda la Región de Murcia.
               </p>
 
               {/* Puntos destacados */}

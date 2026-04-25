@@ -73,10 +73,10 @@ export function ServicesSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Nuestros Servicios</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-            Soluciones Integrales para tu Hogar y Negocio
+            Especialistas en Instalaciones y Mantenimiento
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Ofrecemos una gama completa de servicios profesionales para cubrir todas tus necesidades energéticas y de confort.
+            Cubrimos todas las necesidades técnicas de tu inmueble con tecnología de vanguardia y atención personalizada.
           </p>
         </div>
 
