@@ -1,4 +1,4 @@
-import { Shield, Clock, Award, Users, Leaf, Facebook, Instagram } from "lucide-react"
+import { Shield, Clock, Award, Users, Leaf, Facebook, Instagram, CreditCard } from "lucide-react"
 import Link from "next/link"
 
 const reasons = [
@@ -28,7 +28,12 @@ const reasons = [
     description: "Comprometidos con prácticas sostenibles y soluciones de eficiencia energética.",
   },
   {
-    icon: Instagram, // Usamos Instagram como icono principal por ser el más visual
+    icon: CreditCard,
+    title: "Financiación",
+    description: "Ofrecemos financiación gratuita en todos nuestros proyectos.",
+  },
+  {
+    icon: Instagram,
     title: "Síguenos",
     description: "Conoce nuestro día a día y mira nuestros últimos trabajos realizados en la zona.",
     isSocial: true,
