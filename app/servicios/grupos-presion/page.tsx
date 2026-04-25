@@ -5,51 +5,51 @@ import { Footer } from "@/components/footer"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Grupos de Presion | Fontawachi Instalaciones",
-  description: "Instalacion de grupos de presion de agua en Mazarron. Bombas de presion, descalcificadores y sistemas de tratamiento de agua.",
+  title: "Grupos de Presión | Fontawachi Instalaciones",
+  description: "Instalación de grupos de presión de agua en Mazarrón. Bombas de presión, descalcificadores y sistemas de tratamiento de agua.",
 }
 
 const serviceData = {
-  title: "Grupos de Presion",
+  title: "Grupos de Presión",
   subtitle: "Sistemas de Agua",
-  description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presion y soluciones de sistemas de agua para un suministro constante.",
-  longDescription: "La presion de agua insuficiente es un problema comun en muchas viviendas, especialmente en zonas altas o edificios antiguos. En Fontawachi Instalaciones somos especialistas en grupos de presion y sistemas de bombeo para garantizar un caudal y presion optimos en toda tu vivienda o negocio. Tambien instalamos descalcificadores y sistemas de tratamiento de agua para proteger tus electrodomesticos y tuberias de la cal, muy presente en el agua de la zona de Murcia.",
+  description: "Optimiza el flujo de agua con nuestras instalaciones de bombas de presión y soluciones de sistemas de agua para un suministro constante.",
+  longDescription: "La presión de agua insuficiente es un problema común en muchas viviendas, especialmente en zonas altas o edificios antiguos. En Fontawachi Instalaciones somos especialistas en grupos de presión y sistemas de bombeo para garantizar un caudal y presión óptimos en toda tu vivienda o negocio. También instalamos descalcificadores y sistemas de tratamiento de agua para proteger tus electrodomésticos y tuberías de la cal, muy presente en el agua de la zona de Murcia.",
   features: [
     {
-      title: "Grupos de Presion",
-      description: "Bombas y sistemas de presion para garantizar un caudal constante en toda la vivienda.",
+      title: "Grupos de Presión",
+      description: "Bombas y sistemas de presión para garantizar un caudal constante en toda la vivienda.",
     },
     {
       title: "Descalcificadores",
-      description: "Elimina la cal del agua para proteger tus electrodomesticos y tuberias.",
+      description: "Elimina la cal del agua para proteger tus electrodomésticos y tuberías.",
     },
     {
-      title: "Depositos de Agua",
-      description: "Instalacion de depositos para almacenamiento y regulacion del suministro.",
+      title: "Depósitos de Agua",
+      description: "Instalación de depósitos para almacenamiento y regulación del suministro.",
     },
     {
       title: "Bombas Sumergibles",
-      description: "Para pozos y depositos subterraneos con maxima eficiencia.",
+      description: "Para pozos y depósitos subterráneos con la máxima eficiencia energética.",
     },
     {
       title: "Sistemas de Riego",
-      description: "Automatizacion de riego para jardines y cultivos.",
+      description: "Automatización de riego para jardines y cultivos de forma profesional.",
     },
     {
-      title: "Osmosis Inversa",
-      description: "Sistemas de purificacion de agua para consumo domestico.",
+      title: "Ósmosis Inversa",
+      description: "Sistemas de purificación de agua avanzada para consumo doméstico.",
     },
   ],
   benefits: [
-    "Presion de agua constante en todos los puntos de consumo",
-    "Proteccion de electrodomesticos contra la cal",
-    "Agua de mejor calidad para consumo",
-    "Ahorro en mantenimiento de tuberias",
-    "Sistemas silenciosos y eficientes",
-    "Solucion para viviendas en zonas altas",
+    "Presión de agua constante en todos los puntos de consumo",
+    "Protección total de electrodomésticos contra la cal",
+    "Agua de mejor calidad para el consumo diario",
+    "Ahorro significativo en el mantenimiento de tuberías",
+    "Sistemas silenciosos de última generación y eficientes",
+    "Solución definitiva para viviendas en zonas altas",
   ],
   images: [
-    { src: "/images/services/pressure-1.jpg", alt: "Grupo de presion instalado" },
+    { src: "/images/services/pressure-1.jpg", alt: "Grupo de presión instalado" },
     { src: "/images/services/pressure-2.jpg", alt: "Sistema de bombeo de agua" },
   ],
 }

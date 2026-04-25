@@ -9,20 +9,20 @@ import { Phone, Mail, MapPin, Clock, Send } from "lucide-react"
 const contactInfo = [
   {
     icon: Phone,
-    label: "Telefono",
+    label: "Teléfono",
     value: "652 30 48 01",
     href: "tel:+34 652 30 48 01",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@fontawachi.es",
-    href: "mailto:info@fontawachi.es",
+    value: "fontawachi@gmail.com",
+    href: "mailto:fontawachi@gmail.com",
   },
   {
     icon: MapPin,
-    label: "Direccion",
-    value: "Mazarron, Murcia",
+    label: "Dirección",
+    value: "Mazarrón, Murcia",
     href: "#",
   },
   {
@@ -34,12 +34,14 @@ const contactInfo = [
 ]
 
 const serviceOptions = [
-  "Energia Solar",
+  "Energía Solar",
   "Sistemas Fotovoltaicos",
   "Aire Acondicionado",
-  "Calderas y Calefaccion",
-  "Grupos de Presion",
-  "Fontaneria",
+  "Aerotermia",
+  "Calderas y Calefacción",
+  "Sistemas de Tratamiento de Agua",
+  "Grupos de Presión",
+  "Fontanería",
   "Otro",
 ]
 
@@ -58,33 +60,33 @@ export function ContactSection() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
+    // Simular envío del formulario
     await new Promise((resolve) => setTimeout(resolve, 1000))
     
     setIsSubmitting(false)
     setIsSubmitted(true)
     setFormData({ name: "", email: "", phone: "", service: "", message: "" })
     
-    // Reset success message after 5 seconds
+    // Resetear mensaje de éxito tras 5 segundos
     setTimeout(() => setIsSubmitted(false), 5000)
   }
 
   return (
     <section id="contacto" className="py-20 lg:py-28 bg-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+        {/* Encabezado de la Sección */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Contacto</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-balance">
             Solicita tu Presupuesto Gratis
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            ¿Listo para empezar tu proyecto? Contactanos para un presupuesto gratuito y sin compromiso.
+            ¿Listo para empezar tu proyecto? Contáctanos para un presupuesto gratuito y sin compromiso.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-          {/* Contact Form */}
+          {/* Formulario de Contacto */}
           <div className="bg-background rounded-2xl p-8 border border-border">
             {isSubmitted ? (
               <div className="text-center py-12">
@@ -106,7 +108,7 @@ export function ContactSection() {
                     <Input
                       id="name"
                       type="text"
-                      placeholder="Juan Garcia"
+                      placeholder="Alejandro Bermúdez"
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -114,12 +116,12 @@ export function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                      Correo Electronico *
+                      Correo Electrónico *
                     </label>
                     <Input
                       id="email"
                       type="email"
-                      placeholder="juan@ejemplo.com"
+                      placeholder="alejandro@ejemplo.com"
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -130,7 +132,7 @@ export function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                      Telefono
+                      Teléfono
                     </label>
                     <Input
                       id="phone"
@@ -167,7 +169,7 @@ export function ContactSection() {
                   </label>
                   <Textarea
                     id="message"
-                    placeholder="Cuentanos sobre tu proyecto..."
+                    placeholder="Cuéntanos sobre tu proyecto..."
                     required
                     rows={4}
                     value={formData.message}
@@ -182,13 +184,13 @@ export function ContactSection() {
             )}
           </div>
 
-          {/* Contact Information */}
+          {/* Información de Contacto */}
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">Contacta con Nosotros</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas una reparacion de urgencia? 
-                Nuestro equipo esta aqui para ayudarte. Contactanos a traves de cualquiera de los 
+                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas una reparación de urgencia? 
+                Nuestro equipo está aquí para ayudarte. Contáctanos a través de cualquiera de los 
                 canales siguientes o rellena el formulario de contacto.
               </p>
             </div>

@@ -1,26 +1,27 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image" // Importamos Image
-import { Facebook, Instagram } from "lucide-react" // Quitamos Droplets
+import Image from "next/image"
+import { Facebook, Instagram } from "lucide-react"
 
 const footerLinks = {
   services: [
-    { label: "Energia Solar", href: "#servicios" },
-    { label: "Sistemas Fotovoltaicos", href: "#servicios" },
-    { label: "Aire Acondicionado", href: "#servicios" },
-    { label: "Calderas y Calefaccion", href: "#servicios" },
-    { label: "Grupos de Presion", href: "#servicios" },
-    { label: "Fontaneria", href: "#servicios" },
+    { label: "Energía Solar", href: "/servicios/energia-solar" },
+    { label: "Sistemas Fotovoltaicos", href: "/servicios/fotovoltaica" },
+    { label: "Aire Acondicionado", href: "/servicios/aire-acondicionado" },
+    { label: "Aerotermia", href: "/servicios/aerotermia" },
+    { label: "Calderas y Calefacción", href: "/servicios/calderas" },
+    { label: "Tratamiento de Agua", href: "/servicios/tratamiento-agua" },
+    { label: "Fontanería", href: "/servicios/fontaneria" },
+    { label: "Grupos de presión", href: "/servicios/grupos-presion" }
   ],
   company: [
     { label: "Sobre Nosotros", href: "#nosotros" },
-    { label: "Por Que Elegirnos", href: "#por-que-elegirnos" },
+    { label: "Por qué elegirnos", href: "#por-que-elegirnos" },
     { label: "Zona de Cobertura", href: "#" },
   ],
   support: [
     { label: "Contacto", href: "#contacto" },
-    { label: "Urgencias 24/7", href: "tel:+34600000000" },
     { label: "Presupuesto Gratis", href: "#contacto" },
   ],
 }
@@ -38,7 +39,6 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              {/* Contenedor del Logo igual que en el Header */}
               <div className="relative w-20 h-20">
                 <Image 
                   src="/logo-fontawachi.png"
@@ -50,9 +50,9 @@ export function Footer() {
               <span className="font-semibold text-lg">Fontawachi</span>
             </Link>
             <p className="text-secondary-foreground/70 leading-relaxed mb-6 max-w-sm">
-              Tu socio de confianza para energia solar, climatizacion, fontaneria y soluciones de 
-              confort del hogar. Sirviendo a clientes residenciales y comerciales en Mazarron y 
-              toda la Region de Murcia con excelencia durante mas de 15 anos.
+              Tu socio de confianza para energía solar, climatización, fontanería y soluciones de 
+              confort del hogar. Sirviendo a clientes residenciales y comerciales en Mazarrón y 
+              toda la Región de Murcia con excelencia durante más de 20 años.
             </p>
             {/* Social Links */}
             <div className="flex gap-4">
@@ -69,9 +69,9 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Resto de las columnas de links (sin cambios) */}
+          {/* Links Columns */}
           <div>
-            <h4 className="font-semibold mb-4">Servicios</h4>
+            <h4 className="font-semibold mb-4 text-white">Servicios</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.label}>
@@ -87,7 +87,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Empresa</h4>
+            <h4 className="font-semibold mb-4 text-white">Empresa</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
@@ -103,7 +103,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Ayuda</h4>
+            <h4 className="font-semibold mb-4 text-white">Ayuda</h4>
             <ul className="space-y-3">
               {footerLinks.support.map((link) => (
                 <li key={link.label}>
@@ -126,7 +126,7 @@ export function Footer() {
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
-              Politica de Privacidad
+              Política de Privacidad
             </Link>
             <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
               Aviso Legal

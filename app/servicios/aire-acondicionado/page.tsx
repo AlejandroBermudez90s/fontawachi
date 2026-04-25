@@ -6,52 +6,52 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Aire Acondicionado | Fontawachi Instalaciones",
-  description: "Instalacion, mantenimiento y reparacion de aire acondicionado en Mazarron. Todas las marcas y sistemas split, multisplit y conductos.",
+  description: "Instalación, mantenimiento y reparación de aire acondicionado en Mazarrón. Todas las marcas y sistemas split, multisplit y conductos.",
 }
 
 const serviceData = {
   title: "Aire Acondicionado",
-  subtitle: "Climatizacion Profesional",
-  description: "Mantente comodo todo el ano con nuestros servicios de instalacion, mantenimiento y reparacion de aire acondicionado de todas las marcas.",
-  longDescription: "El clima mediterraneo de Mazarron hace imprescindible contar con un buen sistema de climatizacion. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros tecnicos estan certificados para garantizar instalaciones eficientes y duraderas. Tambien ofrecemos contratos de mantenimiento para asegurar el optimo funcionamiento de tu equipo.",
+  subtitle: "Climatización Profesional",
+  description: "Mantente cómodo todo el año con nuestros servicios de instalación, mantenimiento y reparación de aire acondicionado de todas las marcas.",
+  longDescription: "El clima mediterráneo de Mazarrón hace imprescindible contar con un buen sistema de climatización. En Fontawachi Instalaciones somos expertos en aire acondicionado, ofreciendo soluciones para viviendas, locales comerciales y oficinas. Trabajamos con las principales marcas del mercado (Daikin, Mitsubishi, Fujitsu, Samsung, LG) y nuestros técnicos están certificados para garantizar instalaciones eficientes y duraderas. También ofrecemos contratos de mantenimiento para asegurar el óptimo funcionamiento de tu equipo.",
   features: [
     {
-      title: "Instalacion Split y Multisplit",
+      title: "Instalación Split y Multisplit",
       description: "Sistemas individuales o para climatizar varias estancias con una sola unidad exterior.",
     },
     {
       title: "Aire por Conductos",
-      description: "Solucion integrada para climatizar toda la vivienda de forma uniforme y estetica.",
+      description: "Solución integrada para climatizar toda la vivienda de forma uniforme y estética.",
     },
     {
       title: "Sistemas Inverter",
-      description: "Tecnologia de ahorro energetico que adapta la potencia a las necesidades reales.",
+      description: "Tecnología de ahorro energético que adapta la potencia a las necesidades reales.",
     },
     {
-      title: "Reparacion Urgente",
-      description: "Servicio de reparacion rapida para que no te quedes sin climatizacion.",
+      title: "Reparación Urgente",
+      description: "Servicio de reparación rápida para que no te quedes sin climatización cuando más la necesitas.",
     },
     {
       title: "Mantenimiento Preventivo",
-      description: "Limpieza de filtros, revision de gas y comprobacion general para maxima eficiencia.",
+      description: "Limpieza de filtros, revisión de niveles de gas y comprobación general para máxima eficiencia.",
     },
     {
       title: "Bomba de Calor",
-      description: "Equipos que ofrecen frio en verano y calor en invierno con maxima eficiencia.",
+      description: "Equipos que ofrecen frío en verano y calor en invierno con la máxima eficiencia energética.",
     },
   ],
   benefits: [
-    "Confort termico durante todo el ano",
-    "Ahorro energetico con tecnologia Inverter (hasta 40%)",
-    "Mejora de la calidad del aire interior",
-    "Equipos silenciosos de ultima generacion",
-    "Financiacion flexible disponible",
-    "Servicio tecnico oficial de las principales marcas",
+    "Confort térmico garantizado durante todo el año",
+    "Ahorro energético con tecnología Inverter (hasta un 40%)",
+    "Mejora significativa de la calidad del aire interior",
+    "Equipos silenciosos de última generación para un mejor descanso",
+    "Financiación flexible adaptada a tus necesidades",
+    "Servicio técnico profesional de las principales marcas del sector",
   ],
   images: [
-    { src: "/images/services/ac-1.jpg", alt: "Instalacion aire acondicionado" },
-    { src: "/images/services/ac-2.jpg", alt: "Unidad exterior aire acondicionado" },
-    { src: "/images/services/ac-3.jpg", alt: "Mantenimiento aire acondicionado" },
+    { src: "/images/services/ac-1.jpg", alt: "Instalación de aire acondicionado" },
+    { src: "/images/services/ac-2.jpg", alt: "Unidad exterior de aire acondicionado" },
+    { src: "/images/services/ac-3.jpg", alt: "Mantenimiento de aire acondicionado" },
   ],
 }
 

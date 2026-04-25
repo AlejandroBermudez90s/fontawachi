@@ -5,52 +5,52 @@ import { Footer } from "@/components/footer"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Fontaneria | Fontawachi Instalaciones",
-  description: "Servicios de fontaneria en Mazarron. Reparacion de fugas, instalacion de banos, reforma de tuberias y urgencias 24 horas.",
+  title: "Fontanería | Fontawachi Instalaciones",
+  description: "Servicios de fontanería en Mazarrón. Reparación de fugas, instalación de baños, reforma de tuberías y urgencias 24 horas.",
 }
 
 const serviceData = {
-  title: "Fontaneria",
+  title: "Fontanería",
   subtitle: "Servicios Integrales",
   description: "Desde reparaciones hasta instalaciones completas, nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
-  longDescription: "El servicio de fontaneria es fundamental para el funcionamiento de cualquier vivienda o negocio. En Fontawachi Instalaciones contamos con un equipo de fontaneros profesionales con amplia experiencia en todo tipo de trabajos: desde una simple reparacion de grifo hasta la instalacion completa de un cuarto de bano. Ofrecemos servicio de urgencias para averias que no pueden esperar, como fugas de agua o atascos. Nuestro compromiso es resolver tu problema de forma rapida, limpia y con garantia.",
+  longDescription: "El servicio de fontanería es fundamental para el funcionamiento de cualquier vivienda o negocio. En Fontawachi Instalaciones contamos con un equipo de fontaneros profesionales con amplia experiencia en todo tipo de trabajos: desde una simple reparación de grifo hasta la instalación completa de un cuarto de baño. Ofrecemos servicio de urgencias para averías que no pueden esperar, como fugas de agua o atascos. Nuestro compromiso es resolver tu problema de forma rápida, limpia y con garantía.",
   features: [
     {
-      title: "Reparacion de Fugas",
-      description: "Deteccion y reparacion de fugas de agua visibles y ocultas con tecnologia avanzada.",
+      title: "Reparación de Fugas",
+      description: "Detección y reparación de fugas de agua visibles y ocultas con tecnología avanzada.",
     },
     {
       title: "Desatascos",
-      description: "Servicio de desatasco de tuberias, desagues y arquetas con maquinaria profesional.",
+      description: "Servicio de desatasco de tuberías, desagües y arquetas con maquinaria profesional.",
     },
     {
-      title: "Instalacion de Banos",
-      description: "Reforma completa de banos: sanitarios, griferia, mamparas y accesorios.",
+      title: "Instalación de Baños",
+      description: "Reforma completa de baños: sanitarios, grifería, mamparas y accesorios.",
     },
     {
-      title: "Reforma de Tuberias",
-      description: "Sustitucion de tuberias antiguas por materiales modernos y duraderos.",
+      title: "Reforma de Tuberías",
+      description: "Sustitución de tuberías antiguas por materiales modernos y duraderos.",
     },
     {
       title: "Termos y Calentadores",
-      description: "Instalacion y reparacion de termos electricos y calentadores de gas.",
+      description: "Instalación y reparación de termos eléctricos y calentadores de gas.",
     },
     {
       title: "Urgencias 24h",
-      description: "Servicio de emergencia disponible las 24 horas para averias urgentes.",
+      description: "Servicio de emergencia disponible las 24 horas para averías urgentes.",
     },
   ],
   benefits: [
-    "Respuesta rapida ante emergencias",
-    "Fontaneros certificados y con experiencia",
-    "Presupuesto sin compromiso",
-    "Trabajos con garantia",
-    "Limpieza total tras cada intervencion",
-    "Materiales de primera calidad",
+    "Respuesta rápida ante emergencias",
+    "Fontaneros certificados y con gran experiencia",
+    "Presupuesto detallado sin compromiso",
+    "Trabajos con garantía por escrito",
+    "Limpieza total tras cada intervención",
+    "Uso de materiales de primera calidad",
   ],
   images: [
     { src: "/images/services/plumbing-1.jpg", alt: "Fontanero trabajando" },
-    { src: "/images/services/plumbing-2.jpg", alt: "Instalacion de bano" },
+    { src: "/images/services/plumbing-2.jpg", alt: "Instalación de baño" },
   ],
 }
 

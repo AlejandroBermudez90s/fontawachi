@@ -6,52 +6,52 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Sistemas Fotovoltaicos | Fontawachi Instalaciones",
-  description: "Diseno e instalacion de sistemas fotovoltaicos en Mazarron. Autoconsumo con y sin baterias, conexion a red y sistemas aislados.",
+  description: "Diseño e instalación de sistemas fotovoltaicos en Mazarrón. Autoconsumo con y sin baterías, conexión a red y sistemas aislados.",
 }
 
 const serviceData = {
   title: "Sistemas Fotovoltaicos",
   subtitle: "Autoconsumo Inteligente",
-  description: "Diseno e instalacion completa de sistemas fotovoltaicos para maxima eficiencia energetica y ahorro a largo plazo.",
-  longDescription: "Los sistemas fotovoltaicos son la solucion mas avanzada para generar tu propia electricidad. En Fontawachi ofrecemos soluciones completas de autoconsumo fotovoltaico, desde instalaciones basicas hasta sistemas con baterias de almacenamiento y gestion inteligente de energia. Trabajamos con las mejores marcas del mercado y nuestros ingenieros disenan cada instalacion para maximizar el aprovechamiento de la energia solar en tu ubicacion especifica.",
+  description: "Diseño e instalación completa de sistemas fotovoltaicos para máxima eficiencia energética y ahorro a largo plazo.",
+  longDescription: "Los sistemas fotovoltaicos son la solución más avanzada para generar tu propia electricidad. En Fontawachi ofrecemos soluciones completas de autoconsumo fotovoltaico, desde instalaciones básicas hasta sistemas con baterías de almacenamiento y gestión inteligente de energía. Trabajamos con las mejores marcas del mercado y nuestros ingenieros diseñan cada instalación para maximizar el aprovechamiento de la energía solar en tu ubicación específica.",
   features: [
     {
       title: "Autoconsumo Directo",
-      description: "Consume la energia que produces al instante y reduce tu dependencia de la red electrica.",
+      description: "Consume la energía que produces al instante y reduce tu dependencia de la red eléctrica.",
     },
     {
-      title: "Baterias de Almacenamiento",
-      description: "Almacena el excedente de energia para usarla cuando mas la necesites, incluso de noche.",
+      title: "Baterías de Almacenamiento",
+      description: "Almacena el excedente de energía para usarla cuando más la necesites, incluso de noche.",
     },
     {
       title: "Vertido a Red",
-      description: "Vende el excedente de energia a la red y obtiene una compensacion en tu factura.",
+      description: "Vende el excedente de energía a la red y obtén una compensación en tu factura.",
     },
     {
-      title: "Gestion Inteligente",
-      description: "Optimiza automaticamente el uso de energia segun tus patrones de consumo.",
+      title: "Gestión Inteligente",
+      description: "Optimiza automáticamente el uso de energía según tus patrones de consumo.",
     },
     {
-      title: "Inversores de Alta Eficiencia",
-      description: "Equipos de ultima generacion para maximizar la conversion de energia solar.",
+      title: "Inversoores de Alta Eficiencia",
+      description: "Equipos de última generación para maximizar la conversión de energía solar.",
     },
     {
       title: "Ampliaciones Futuras",
-      description: "Disenamos sistemas escalables que puedes ampliar segun tus necesidades.",
+      description: "Diseñamos sistemas escalables que puedes ampliar según tus necesidades futuras.",
     },
   ],
   benefits: [
-    "Independencia energetica total con sistemas con baterias",
-    "Compensacion economica por excedentes vertidos a red",
+    "Independencia energética total con sistemas con baterías",
+    "Compensación económica por excedentes vertidos a la red",
     "Sistemas escalables y adaptables a tus necesidades",
-    "Reduccion de la huella de carbono",
-    "Proteccion ante cortes de suministro con sistemas hibridos",
-    "Control total de tu energia desde una app",
+    "Reducción drástica de la huella de carbono",
+    "Protección ante cortes de suministro con sistemas híbridos",
+    "Control total de tu energía desde una aplicación móvil",
   ],
   images: [
     { src: "/images/services/photovoltaic-1.jpg", alt: "Inversor fotovoltaico" },
     { src: "/images/services/solar-1.jpg", alt: "Sistema fotovoltaico completo" },
-    { src: "/images/services/solar-2.jpg", alt: "Paneles fotovoltaicos" },
+    { src: "/images/services/solar-2.jpg", alt: "Paneles fotovoltaicos instalados" },
   ],
 }
 

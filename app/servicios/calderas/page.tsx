@@ -5,52 +5,52 @@ import { Footer } from "@/components/footer"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Calderas y Calefaccion | Fontawachi Instalaciones",
-  description: "Instalacion y mantenimiento de calderas en Mazarron. Calderas de gas, condensacion, biomasa y sistemas de calefaccion completos.",
+  title: "Calderas y Calefacción | Fontawachi Instalaciones",
+  description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gas, condensación, biomasa y sistemas de calefacción completos.",
 }
 
 const serviceData = {
-  title: "Calderas y Calefaccion",
-  subtitle: "Confort Termico",
-  description: "Instalacion, mantenimiento y reparacion de calderas para mantener tu hogar caliente y tu sistema de calefaccion eficiente.",
-  longDescription: "Aunque Mazarron disfruta de un clima templado, las noches de invierno requieren un buen sistema de calefaccion. En Fontawachi Instalaciones ofrecemos soluciones completas de calderas y calefaccion, desde la instalacion de calderas de gas y condensacion hasta sistemas de suelo radiante y radiadores. Somos instaladores autorizados y realizamos las revisiones obligatorias segun normativa. Nuestro objetivo es que disfrutes del maximo confort con el minimo consumo energetico.",
+  title: "Calderas y Calefacción",
+  subtitle: "Confort Térmico",
+  description: "Instalación, mantenimiento y reparación de calderas para mantener tu hogar caliente y tu sistema de calefacción eficiente.",
+  longDescription: "Aunque Mazarrón disfruta de un clima templado, las noches de invierno requieren un buen sistema de calefacción. En Fontawachi Instalaciones ofrecemos soluciones completas de calderas y calefacción, desde la instalación de calderas de gas y condensación hasta sistemas de suelo radiante y radiadores. Somos instaladores autorizados y realizamos las revisiones obligatorias según la normativa vigente. Nuestro objetivo es que disfrutes del máximo confort con el mínimo consumo energético.",
   features: [
     {
-      title: "Calderas de Condensacion",
-      description: "La opcion mas eficiente del mercado, con ahorros de hasta un 30% respecto a calderas convencionales.",
+      title: "Calderas de Condensación",
+      description: "La opción más eficiente del mercado, con ahorros de hasta un 30% respecto a calderas convencionales.",
     },
     {
       title: "Calderas de Gas",
-      description: "Instalacion y mantenimiento de calderas de gas natural y propano.",
+      description: "Instalación y mantenimiento de calderas de gas natural y propano.",
     },
     {
       title: "Suelo Radiante",
-      description: "Sistema de calefaccion invisible que proporciona un calor uniforme y agradable.",
+      description: "Sistema de calefacción invisible que proporciona un calor uniforme y una sensación térmica muy agradable.",
     },
     {
       title: "Radiadores",
-      description: "Instalacion y sustitucion de radiadores de aluminio, hierro fundido o toalleros.",
+      description: "Instalación y sustitución de radiadores de aluminio, hierro fundido o prácticos toalleros.",
     },
     {
-      title: "Revision Obligatoria",
-      description: "Cumplimos con la normativa vigente para garantizar la seguridad de tu instalacion.",
+      title: "Revisión Obligatoria",
+      description: "Cumplimos con la normativa del RITE para garantizar la seguridad y eficiencia de tu instalación.",
     },
     {
-      title: "Reparacion Urgente",
-      description: "Servicio rapido para que no te quedes sin calefaccion ni agua caliente.",
+      title: "Reparación Urgente",
+      description: "Servicio rápido y eficaz para que no te quedes sin calefacción ni agua caliente cuando más lo necesitas.",
     },
   ],
   benefits: [
-    "Ahorro energetico con calderas de alta eficiencia",
-    "Agua caliente sanitaria instantanea",
-    "Cumplimiento de normativa y certificaciones",
-    "Sistemas compatibles con energia solar termica",
-    "Confort termico uniforme en toda la vivienda",
-    "Financiacion disponible para la instalacion",
+    "Máximo ahorro energético con calderas de alta eficiencia",
+    "Agua caliente sanitaria de forma instantánea",
+    "Cumplimiento estricto de normativa y certificaciones legales",
+    "Sistemas híbridos compatibles con energía solar térmica",
+    "Confort térmico uniforme en todas las estancias de la vivienda",
+    "Opciones de financiación flexible para tu nueva instalación",
   ],
   images: [
     { src: "/images/services/boiler-1.jpg", alt: "Caldera moderna instalada" },
-    { src: "/images/services/boiler-2.jpg", alt: "Mantenimiento de caldera" },
+    { src: "/images/services/boiler-2.jpg", alt: "Mantenimiento profesional de caldera" },
   ],
 }
 
