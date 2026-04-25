@@ -3,7 +3,9 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import { Menu, X, Droplets, Phone } from "lucide-react"
+
 
 const navLinks = [
   { href: "#servicios", label: "Servicios" },
@@ -21,8 +23,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Droplets className="w-6 h-6 text-primary-foreground" />
+            <div className="relative w-20 h-20">
+              <Image 
+                src="/logo-fontawachi.png"
+                alt="Logo Fontawachi"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <span className="font-semibold text-lg text-foreground">Fontawachi</span>
           </Link>
