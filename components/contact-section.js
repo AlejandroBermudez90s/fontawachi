@@ -68,16 +68,18 @@ export function ContactSection() {
       })
 
       const data = await res.json()
+      console.log("Respuesta API:", data) // ← añade esto
 
       if (data.ok) {
         setIsSubmitted(true)
         setFormData({ name: "", email: "", phone: "", service: "", message: "" })
         setTimeout(() => setIsSubmitted(false), 5000)
       } else {
-        alert("Hubo un error al enviar el mensaje. Inténtalo de nuevo.")
+        alert(`Error: ${data.error || "Error desconocido"}`) // ← mensaje más detallado
       }
     } catch (error) {
-      alert("Hubo un error al enviar el mensaje. Inténtalo de nuevo.")
+      console.error("Error fetch:", error) // ← añade esto
+      alert(`Error de conexión: ${error.message}`)
     } finally {
       setIsSubmitting(false)
     }
