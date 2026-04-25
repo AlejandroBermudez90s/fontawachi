@@ -22,6 +22,22 @@ export const metadata = {
     ],
     apple: '/apple-icon.png',
   },
+  openGraph: {
+    title: 'Fontawachi Instalaciones',
+    description: 'Servicios profesionales de energía solar, aire acondicionado, aerotermia, calderas, sistemas de presión de agua, instalaciones fotovoltaicas y fontanería en Mazarrón, Murcia.',
+    url: 'https://www.fontawachi.com',
+    siteName: 'Fontawachi Instalaciones',
+    images: [
+      {
+        url: '/images/hero-image.webp', // ← pon aquí el nombre de tu imagen
+        width: 1200,
+        height: 630,
+        alt: 'Fontawachi Instalaciones - Mazarrón, Murcia',
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -29,8 +45,6 @@ export default function RootLayout({ children }) {
     <html lang="es" className="bg-background">
       <body className={`${geist.className} ${geistMono.className} font-sans antialiased`}>
         {children}
-        
-        {/* Analytics solo se ejecuta en producción para no ensuciar datos de desarrollo */}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
