@@ -59,16 +59,28 @@ export function ContactSection() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simular envío del formulario
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" })
-    
-    // Resetear mensaje de éxito tras 5 segundos
-    setTimeout(() => setIsSubmitted(false), 5000)
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await res.json()
+
+      if (data.ok) {
+        setIsSubmitted(true)
+        setFormData({ name: "", email: "", phone: "", service: "", message: "" })
+        setTimeout(() => setIsSubmitted(false), 5000)
+      } else {
+        alert("Hubo un error al enviar el mensaje. Inténtalo de nuevo.")
+      }
+    } catch (error) {
+      alert("Hubo un error al enviar el mensaje. Inténtalo de nuevo.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -189,8 +201,8 @@ export function ContactSection() {
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-6">Contacta con Nosotros</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas una reparación de urgencia? 
-                Nuestro equipo está aquí para ayudarte. Contáctanos a través de cualquiera de los 
+                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas una reparación de urgencia?
+                Nuestro equipo está aquí para ayudarte. Contáctanos a través de cualquiera de los
                 canales siguientes o rellena el formulario de contacto.
               </p>
             </div>
