@@ -10,9 +10,9 @@ export default function PoliticaPrivacidadPage() {
   return (
     <>
       <Header />
-      <main className="bg-background min-h-screen">
+      <main className="bg-background min-h-screen pt-20">
         {/* Hero */}
-        <div className="bg-primary text-primary-foreground pt-28 pb-16 lg:pt-32 lg:pb-24">
+        <div className="bg-primary text-primary-foreground py-16 lg:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <p className="text-primary-foreground/70 text-sm font-medium uppercase tracking-wider mb-3">Legal</p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Política de Privacidad</h1>
