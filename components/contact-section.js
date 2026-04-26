@@ -23,24 +23,25 @@ const contactInfo = [
     icon: MapPin,
     label: "Dirección",
     value: "Mazarrón, Murcia",
-    href: "#",
+    href: "",
   },
   {
     icon: Clock,
     label: "Horario",
     value: "Lun-Vie: 8:00-18:00",
-    href: "#",
+    href: "",
   },
 ]
 
 const serviceOptions = [
-  "Energía Solar",
-  "Sistemas Fotovoltaicos",
-  "Aire Acondicionado",
+  "Energía solar",
+  "Sistemas fotovoltaicos",
+  "Aire acondicionado",
   "Aerotermia",
-  "Calderas y Calefacción",
-  "Sistemas de Tratamiento de Agua",
-  "Grupos de Presión",
+  "Calderas y calefacción",
+  "Sistemas de tratamiento de agua",
+  "Grupos de presión",
+  "Localización de fugas de agua",
   "Fontanería",
   "Otro",
 ]
@@ -68,17 +69,17 @@ export function ContactSection() {
       })
 
       const data = await res.json()
-      console.log("Respuesta API:", data) // ← añade esto
+      console.log("Respuesta API:", data)
 
       if (data.ok) {
         setIsSubmitted(true)
         setFormData({ name: "", email: "", phone: "", service: "", message: "" })
         setTimeout(() => setIsSubmitted(false), 5000)
       } else {
-        alert(`Error: ${data.error || "Error desconocido"}`) // ← mensaje más detallado
+        alert(`Error: ${data.error || "Error desconocido"}`)
       }
     } catch (error) {
-      console.error("Error fetch:", error) // ← añade esto
+      console.error("Error fetch:", error)
       alert(`Error de conexión: ${error.message}`)
     } finally {
       setIsSubmitting(false)
@@ -92,10 +93,10 @@ export function ContactSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Contacto</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-            Solicita tu Presupuesto Gratis
+            Solicita información gratis
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            ¿Listo para empezar tu proyecto? Contáctanos para un presupuesto gratuito y sin compromiso.
+            ¿Listo para empezar tu proyecto? Contáctanos para más información y asesoramiento profesional.
           </p>
         </div>
 
@@ -107,9 +108,9 @@ export function ContactSection() {
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Send className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">¡Gracias!</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">¡Gracias por confiar en nosotros!</h3>
                 <p className="text-muted-foreground">
-                  Hemos recibido tu mensaje y te contactaremos en menos de 24 horas.
+                  Nos pondremos en contacto contigo lo antes posible.
                 </p>
               </div>
             ) : (
@@ -117,7 +118,7 @@ export function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                      Nombre Completo *
+                      Nombre completo *
                     </label>
                     <Input
                       id="name"
@@ -130,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                      Correo Electrónico *
+                      Correo electrónico *
                     </label>
                     <Input
                       id="email"
@@ -158,7 +159,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="service" className="block text-sm font-medium text-foreground mb-2">
-                      Servicio Requerido *
+                      Servicio solicitado *
                     </label>
                     <select
                       id="service"
@@ -201,9 +202,9 @@ export function ContactSection() {
           {/* Información de Contacto */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-6">Contacta con Nosotros</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-6">Contacta con nosotros</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas una reparación de urgencia?
+                ¿Tienes preguntas sobre nuestros servicios? ¿Necesitas asesoramiento profesional para tu proyecto?
                 Nuestro equipo está aquí para ayudarte. Contáctanos a través de cualquiera de los
                 canales siguientes o rellena el formulario de contacto.
               </p>

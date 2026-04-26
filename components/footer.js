@@ -12,17 +12,16 @@ const footerLinks = {
     { label: "Aerotermia", href: "/servicios/aerotermia" },
     { label: "Calderas y Calefacción", href: "/servicios/calderas" },
     { label: "Tratamiento de Agua", href: "/servicios/tratamiento-agua" },
-    { label: "Fontanería", href: "/servicios/fontaneria" },
+    { label: "Localización de fugas de agua y fontanería", href: "/servicios/fontaneria" },
     { label: "Grupos de presión", href: "/servicios/grupos-presion" }
   ],
   company: [
     { label: "Sobre Nosotros", href: "#nosotros" },
-    { label: "Por qué elegirnos", href: "#por-que-elegirnos" },
+    { label: "¿Por qué elegirnos?", href: "#por-que-elegirnos" },
     { label: "Zona de Cobertura", href: "#" },
   ],
   support: [
-    { label: "Contacto", href: "#contacto" },
-    { label: "Presupuesto Gratis", href: "#contacto" },
+    { label: "Contacto", href: "#contacto" }
   ],
 }
 

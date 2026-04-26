@@ -16,27 +16,27 @@ const serviceData = {
   longDescription: "Los sistemas fotovoltaicos son la solución más avanzada para generar tu propia electricidad. En Fontawachi ofrecemos soluciones completas de autoconsumo fotovoltaico, desde instalaciones básicas hasta sistemas con baterías de almacenamiento y gestión inteligente de energía. Trabajamos con las mejores marcas del mercado y nuestros ingenieros diseñan cada instalación para maximizar el aprovechamiento de la energía solar en tu ubicación específica.",
   features: [
     {
-      title: "Autoconsumo Directo",
+      title: "Autoconsumo directo",
       description: "Consume la energía que produces al instante y reduce tu dependencia de la red eléctrica.",
     },
     {
-      title: "Baterías de Almacenamiento",
+      title: "Baterías de almacenamiento",
       description: "Almacena el excedente de energía para usarla cuando más la necesites, incluso de noche.",
     },
     {
-      title: "Vertido a Red",
+      title: "Vertido a red",
       description: "Vende el excedente de energía a la red y obtén una compensación en tu factura.",
     },
     {
-      title: "Gestión Inteligente",
+      title: "Gestión inteligente",
       description: "Optimiza automáticamente el uso de energía según tus patrones de consumo.",
     },
     {
-      title: "Inversoores de Alta Eficiencia",
+      title: "Inversores de alta eficiencia",
       description: "Equipos de última generación para maximizar la conversión de energía solar.",
     },
     {
-      title: "Ampliaciones Futuras",
+      title: "Ampliaciones futuras",
       description: "Diseñamos sistemas escalables que puedes ampliar según tus necesidades futuras.",
     },
   ],

@@ -16,7 +16,7 @@ const serviceData = {
   longDescription: "La presión de agua insuficiente es un problema común en muchas viviendas, especialmente en zonas altas o edificios antiguos. En Fontawachi Instalaciones somos especialistas en grupos de presión y sistemas de bombeo para garantizar un caudal y presión óptimos en toda tu vivienda o negocio. También instalamos descalcificadores y sistemas de tratamiento de agua para proteger tus electrodomésticos y tuberías de la cal, muy presente en el agua de la zona de Murcia.",
   features: [
     {
-      title: "Grupos de Presión",
+      title: "Grupos de presión",
       description: "Bombas y sistemas de presión para garantizar un caudal constante en toda la vivienda.",
     },
     {
@@ -24,15 +24,15 @@ const serviceData = {
       description: "Elimina la cal del agua para proteger tus electrodomésticos y tuberías.",
     },
     {
-      title: "Depósitos de Agua",
+      title: "Depósitos de agua",
       description: "Instalación de depósitos para almacenamiento y regulación del suministro.",
     },
     {
-      title: "Bombas Sumergibles",
+      title: "Bombas aumergibles",
       description: "Para pozos y depósitos subterráneos con la máxima eficiencia energética.",
     },
     {
-      title: "Ósmosis Inversa",
+      title: "Ósmosis inversa",
       description: "Sistemas de purificación de agua avanzada para consumo doméstico.",
     },
   ],

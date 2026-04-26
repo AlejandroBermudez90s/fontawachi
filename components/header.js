@@ -59,7 +59,7 @@ export function Header() {
                 616 80 32 67
               </a>
             <Button asChild>
-              <Link href="#contacto">Contratar</Link>
+              <Link href="#contacto">Contactar</Link>
             </Button>
           </div>
 
@@ -96,7 +96,7 @@ export function Header() {
                 616 80 32 67
               </a>
               <Button asChild className="w-full">
-                <Link href="#contacto">Solicitar Presupuesto</Link>
+                <Link href="#contacto">Contactar</Link>
               </Button>
             </nav>
           </div>

@@ -6,7 +6,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Calderas y Calefacción | Fontawachi Instalaciones",
-  description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gasoil y sistemas de calefacción completos.",
+  description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gasoil y sistemas de calefacción y suelo radiante.",
 }
 
 const serviceData = {
@@ -28,7 +28,7 @@ const serviceData = {
       description: "Instalación y sustitución de radiadores de aluminio, hierro fundido o prácticos toalleros.",
     },
     {
-      title: "Revisión Obligatoria",
+      title: "Revisión obligatoria",
       description: "Cumplimos con la normativa del RITE para garantizar la seguridad y eficiencia de tu instalación.",
     },
     {

@@ -4,22 +4,22 @@ import Link from "next/link"
 const reasons = [
   {
     icon: Shield,
-    title: "Profesionales Autorizados",
+    title: "Profesionales autorizados",
     description: "Técnicos cualificados, con licencia y asegurados para tu total tranquilidad.",
   },
   {
     icon: Clock,
-    title: "Servicio Puntual",
+    title: "Servicio puntual",
     description: "Respetamos tu tiempo con llegadas puntuales y finalización eficiente de proyectos.",
   },
   {
     icon: Award,
-    title: "Calidad Garantizada",
+    title: "Calidad garantizada",
     description: "Garantías líderes en el sector y satisfacción garantizada en todos nuestros trabajos.",
   },
   {
     icon: Users,
-    title: "Equipo Experto",
+    title: "Equipo experto",
     description: "Técnicos altamente formados y certificados con años de experiencia práctica.",
   },
   {
@@ -35,7 +35,7 @@ const reasons = [
   {
     icon: Instagram,
     title: "Síguenos",
-    description: "Conoce nuestro día a día y mira nuestros últimos trabajos realizados en la zona.",
+    description: "Conoce nuestro día a día y mira nuestros últimos trabajos realizados.",
     isSocial: true,
   }
 ]
@@ -46,9 +46,9 @@ export function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">Por Qué Elegirnos</p>
+          <p className="text-sm font-semibold text-white/80 uppercase tracking-wider mb-3">¿Por qué elegirnos?</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-balance text-white">
-            La Diferencia Fontawachi
+            La diferencia Fontawachi
           </h2>
           <p className="mt-4 text-lg text-secondary-foreground/80">
             Vamos más allá para garantizar tu satisfacción completa en cada proyecto.
@@ -96,7 +96,6 @@ export function WhyChooseUs() {
                       className="text-white/60 hover:text-white transition-all hover:scale-110"
                       aria-label="TikTok"
                     >
-                      {/* Logo de TikTok en SVG para que quede perfecto */}
                       <svg 
                         viewBox="0 0 24 24" 
                         fill="none" 
