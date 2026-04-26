@@ -4,12 +4,12 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata = {
-  title: "Fontanería | Fontawachi Instalaciones",
-  description: "Servicios de fontanería en Mazarrón. Reparación de fugas, instalación de baños, reforma de tuberías y urgencias 24 horas.",
+  title: "Localización de fugas de agua y fontanería | Fontawachi Instalaciones",
+  description: "Servicios de fontanería en Mazarrón. Localización y reparación de fugas de agua, instalación de baños, reforma de tuberías y urgencias 24 horas.",
 }
 
 const serviceData = {
-  title: "Fontanería",
+  title: "Lozalización de fugas de agua y fontanería",
   subtitle: "Servicios integrales",
   description: "Desde reparaciones hasta instalaciones completas, nuestros fontaneros certificados atienden todas tus necesidades residenciales y comerciales.",
   longDescription: "El servicio de fontanería es fundamental para el funcionamiento de cualquier vivienda o negocio. En Fontawachi Instalaciones contamos con un equipo de fontaneros profesionales con amplia experiencia en todo tipo de trabajos: desde una simple reparación de grifo hasta la instalación completa de un cuarto de baño. Ofrecemos servicio de urgencias para averías que no pueden esperar, como fugas de agua o atascos. Nuestro compromiso es resolver tu problema de forma rápida, limpia y con garantía.",

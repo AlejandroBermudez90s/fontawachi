@@ -37,9 +37,9 @@ export function ServiceDetail({
       {/* Cabecera */}
       <div className="bg-primary text-primary-foreground py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link 
-            href="/#servicios" 
-            className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 transition-colors"
+          <Link
+            href="/#servicios"
+            className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground mb-6 mt-6 lg:mt-0 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
             Volver a servicios
@@ -66,7 +66,7 @@ export function ServiceDetail({
       {/* Contenido */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          
+
           {/* COLUMNA IZQUIERDA - SLIDER */}
           <div className="w-full lg:sticky lg:top-28">
             <div className="image-container-frame overflow-hidden rounded-3xl border border-border aspect-[4/3] relative">
