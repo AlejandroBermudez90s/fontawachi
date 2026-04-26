@@ -48,7 +48,7 @@ export function HeroSection() {
               <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <Button size="lg" asChild className="w-full sm:w-auto">
                   <Link href="#contacto">
-                    Contratar <ArrowRight className="ml-2 w-4 h-4" />
+                    Contactar <ArrowRight className="ml-2 w-4 h-4" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild className="w-full sm:w-auto bg-white/10 border-white/30 text-white hover:bg-white/20 hover:text-white">
