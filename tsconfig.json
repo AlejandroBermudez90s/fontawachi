@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/service-detail.js", "app/servicios/calderas/page.js", "app/servicios/aerotermia/page.js", "app/servicios/aire-acondicionado/page.js", "app/servicios/energia-solar/page.js", "app/servicios/fontaneria/page.js", "app/servicios/fotovoltaica/page.js", "app/servicios/grupos-presion/page.js", "app/servicios/tratamiento-agua/page.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/service-detail.js", "app/servicios/calderas/page.js", "app/servicios/aerotermia/page.js", "app/servicios/aire-acondicionado/page.js", "app/servicios/energia-solar/page.js", "app/servicios/fontaneria/page.js", "app/servicios/fotovoltaica/page.js", "app/servicios/grupos-presion/page.js", "app/servicios/tratamiento-agua/page.js", "components/ui/image-slider.js"],
   "exclude": ["node_modules"]
 }

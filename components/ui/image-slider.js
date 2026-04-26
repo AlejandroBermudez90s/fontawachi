@@ -1,19 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-interface ImageSliderProps {
-  images: {
-    src: string
-    alt: string
-  }[]
-}
-
-export function ImageSlider({ images }: ImageSliderProps) {
+export function ImageSlider({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const touchStartX = useRef(null)
+  const touchEndX = useRef(null)
 
   const goToPrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
@@ -23,16 +18,39 @@ export function ImageSlider({ images }: ImageSliderProps) {
     setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
   }
 
-  const goToSlide = (index: number) => {
+  const goToSlide = (index) => {
     setCurrentIndex(index)
+  }
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX
+  }
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX
+  }
+
+  const handleTouchEnd = () => {
+    if (!touchStartX.current || !touchEndX.current) return
+    const diff = touchStartX.current - touchEndX.current
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? goToNext() : goToPrevious()
+    }
+    touchStartX.current = null
+    touchEndX.current = null
   }
 
   if (images.length === 0) return <></>
 
   return (
     <div className="relative w-full">
-      {/* Main Image */}
-      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-muted">
+      {/* Imagen principal */}
+      <div
+        className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl bg-muted"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <Image
           src={images[currentIndex].src}
           alt={images[currentIndex].alt}
@@ -40,8 +58,8 @@ export function ImageSlider({ images }: ImageSliderProps) {
           className="object-cover transition-opacity duration-500"
           priority
         />
-        
-        {/* Navigation Arrows */}
+
+        {/* Flechas navegación */}
         {images.length > 1 && (
           <>
             <Button
@@ -66,7 +84,7 @@ export function ImageSlider({ images }: ImageSliderProps) {
         )}
       </div>
 
-      {/* Dots Indicator */}
+      {/* Dots */}
       {images.length > 1 && (
         <div className="flex justify-center gap-2 mt-4">
           {images.map((_, index) => (
@@ -82,14 +100,14 @@ export function ImageSlider({ images }: ImageSliderProps) {
         </div>
       )}
 
-      {/* Thumbnails */}
+      {/* Thumbnails con scroll horizontal */}
       {images.length > 1 && (
-        <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
+        <div className="flex gap-2 mt-4 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
           {images.map((image, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${
+              className={`relative flex-shrink-0 w-24 h-16 sm:w-20 sm:h-14 rounded-lg overflow-hidden border-2 transition-all snap-start ${
                 index === currentIndex ? "border-primary" : "border-transparent hover:border-border"
               }`}
             >
