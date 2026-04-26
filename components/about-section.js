@@ -1,9 +1,9 @@
 import Image from "next/image"
 
 const stats = [
-  { value: "20+", label: "Años de Experiencia" },
-  { value: "2000+", label: "Proyectos Realizados" },
-  { value: "98%", label: "Clientes Satisfechos" }
+  { value: "20+", label: "Años de experiencia" },
+  { value: "2000+", label: "Proyectos realizados" },
+  { value: "98%", label: "Clientes satisfechos" }
 ]
 
 export function AboutSection() {
@@ -25,12 +25,12 @@ export function AboutSection() {
 
           {/* Contenido */}
           <div>
-            <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Sobre Nosotros</p>
+            <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">Sobre nosotros</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 text-balance">
-              Expertos de Confianza en Soluciones Energéticas y del hogar
+              Expertos de confianza en soluciones energéticas y del hogar
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Con más de 20 años de experiencia, Fontawachi Instalaciones ha sido el socio de confianza
+              Con más de 20 años de experiencia, Fontawachi Instalaciones ha sido la empresa de confianza
               para miles de hogares y negocios en Mazarrón y toda la Región de Murcia que buscan
               soluciones fiables en energía y servicios del hogar. Nuestro equipo de profesionales
               certificados está comprometido con ofrecer calidad excepcional y satisfacción al cliente.

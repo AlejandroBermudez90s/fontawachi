@@ -6,19 +6,19 @@ import { Facebook, Instagram } from "lucide-react"
 
 const footerLinks = {
   services: [
-    { label: "Energía Solar", href: "/servicios/energia-solar" },
-    { label: "Sistemas Fotovoltaicos", href: "/servicios/fotovoltaica" },
-    { label: "Aire Acondicionado", href: "/servicios/aire-acondicionado" },
+    { label: "Energía solar", href: "/servicios/energia-solar" },
+    { label: "Sistemas fotovoltaicos", href: "/servicios/fotovoltaica" },
+    { label: "Aire acondicionado", href: "/servicios/aire-acondicionado" },
     { label: "Aerotermia", href: "/servicios/aerotermia" },
-    { label: "Calderas y Calefacción", href: "/servicios/calderas" },
-    { label: "Tratamiento de Agua", href: "/servicios/tratamiento-agua" },
+    { label: "Calderas y calefacción", href: "/servicios/calderas" },
+    { label: "Tratamiento de agua", href: "/servicios/tratamiento-agua" },
     { label: "Localización de fugas de agua y fontanería", href: "/servicios/fontaneria" },
     { label: "Grupos de presión", href: "/servicios/grupos-presion" }
   ],
   company: [
-    { label: "Sobre Nosotros", href: "#nosotros" },
+    { label: "Sobre nosotros", href: "#nosotros" },
     { label: "¿Por qué elegirnos?", href: "#por-que-elegirnos" },
-    { label: "Zona de Cobertura", href: "#" },
+    { label: "Zona de cobertura", href: "#" },
   ],
   support: [
     { label: "Contacto", href: "#contacto" }
@@ -142,10 +142,10 @@ export function Footer() {
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
-              Política de Privacidad
+              Política de privacidad
             </Link>
             <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
-              Aviso Legal
+              Aviso legal
             </Link>
           </div>
         </div>
