@@ -1,16 +1,22 @@
-import { Resend } from "resend"
+import nodemailer from "nodemailer"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+})
 
 export async function POST(request) {
   try {
     const { name, email, phone, service, message } = await request.json()
 
-    await resend.emails.send({
-      from: "Fontawachi <contacto@fontawachi.com>",
-      to: "fontawachi@gmail.com",
-      reply_to: `${name} <${email}>`,
-      subject: `Nuevo presupuesto: ${service}`,
+    await transporter.sendMail({
+      from: `"Fontawachi Web" <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER,
+      replyTo: `${name} <${email}>`,
+      subject: `Presupuesto ${service} — ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #1a1a1a; border-bottom: 2px solid #e5e7eb; padding-bottom: 12px;">
