@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -9,6 +9,8 @@ export function ImageSlider({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const touchStartX = useRef(null)
   const touchEndX = useRef(null)
+  const thumbnailsRef = useRef(null)
+  const thumbRefs = useRef([])
 
   const goToPrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
@@ -39,6 +41,27 @@ export function ImageSlider({ images }) {
     touchStartX.current = null
     touchEndX.current = null
   }
+
+  // ✅ Scroll automático al thumbnail activo
+  useEffect(() => {
+    const container = thumbnailsRef.current
+    const activeThumb = thumbRefs.current[currentIndex]
+    if (!container || !activeThumb) return
+
+    const containerLeft = container.scrollLeft
+    const containerWidth = container.offsetWidth
+    const thumbLeft = activeThumb.offsetLeft
+    const thumbWidth = activeThumb.offsetWidth
+
+    const isVisible = thumbLeft >= containerLeft && thumbLeft + thumbWidth <= containerLeft + containerWidth
+
+    if (!isVisible) {
+      container.scrollTo({
+        left: thumbLeft - containerWidth / 2 + thumbWidth / 2,
+        behavior: "smooth",
+      })
+    }
+  }, [currentIndex])
 
   if (images.length === 0) return <></>
 
@@ -100,14 +123,18 @@ export function ImageSlider({ images }) {
         </div>
       )}
 
-      {/* Thumbnails con scroll horizontal */}
+      {/* Thumbnails con scroll automático */}
       {images.length > 1 && (
-        <div className="flex gap-2 mt-4 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
+        <div
+          ref={thumbnailsRef}
+          className="flex gap-2 mt-4 overflow-x-auto pb-2 scrollbar-hide"
+        >
           {images.map((image, index) => (
             <button
               key={index}
+              ref={(el) => (thumbRefs.current[index] = el)}
               onClick={() => goToSlide(index)}
-              className={`relative flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden border-2 transition-all snap-start ${
+              className={`relative flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden border-2 transition-all ${
                 index === currentIndex ? "border-primary" : "border-transparent hover:border-border"
               }`}
             >
