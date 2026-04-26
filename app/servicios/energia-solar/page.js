@@ -2,9 +2,8 @@ import { Sun } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Energía Solar | Fontawachi Instalaciones",
   description: "Instalación profesional de paneles solares en Mazarrón, Murcia. Reduce tu factura eléctrica con energía solar limpia y renovable.",
 }

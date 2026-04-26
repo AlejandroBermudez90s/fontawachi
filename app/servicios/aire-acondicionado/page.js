@@ -2,9 +2,8 @@ import { Wind } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Aire Acondicionado | Fontawachi Instalaciones",
   description: "Instalación, mantenimiento y reparación de aire acondicionado en Mazarrón. Todas las marcas y sistemas split, multisplit y conductos.",
 }

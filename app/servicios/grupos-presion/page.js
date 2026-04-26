@@ -2,9 +2,8 @@ import { Droplets } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Grupos de Presión | Fontawachi Instalaciones",
   description: "Instalación de grupos de presión de agua en Mazarrón. Bombas de presión, descalcificadores y sistemas de tratamiento de agua.",
 }

@@ -2,9 +2,8 @@ import { Wrench } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Fontanería | Fontawachi Instalaciones",
   description: "Servicios de fontanería en Mazarrón. Reparación de fugas, instalación de baños, reforma de tuberías y urgencias 24 horas.",
 }

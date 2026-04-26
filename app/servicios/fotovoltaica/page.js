@@ -2,9 +2,8 @@ import { Zap } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Sistemas Fotovoltaicos | Fontawachi Instalaciones",
   description: "Diseño e instalación de sistemas fotovoltaicos en Mazarrón. Autoconsumo con y sin baterías, conexión a red y sistemas aislados.",
 }

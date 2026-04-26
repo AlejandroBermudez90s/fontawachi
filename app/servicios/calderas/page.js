@@ -2,9 +2,8 @@ import { Flame } from "lucide-react"
 import { ServiceDetail } from "@/components/service-detail"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Calderas y Calefacción | Fontawachi Instalaciones",
   description: "Instalación y mantenimiento de calderas en Mazarrón. Calderas de gasoil y sistemas de calefacción y suelo radiante.",
 }

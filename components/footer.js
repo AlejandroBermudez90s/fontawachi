@@ -141,10 +141,10 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Fontawachi Instalaciones. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
+            <Link href="/politica-privacidad" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
               Política de privacidad
             </Link>
-            <Link href="#" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
+            <Link href="/aviso-legal" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
               Aviso legal
             </Link>
           </div>
