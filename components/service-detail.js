@@ -69,7 +69,7 @@ export function ServiceDetail({
 
           {/* COLUMNA IZQUIERDA - SLIDER */}
           <div className="w-full lg:sticky lg:top-28">
-            <div className="image-container-frame overflow-hidden rounded-3xl border border-border aspect-[4/3] relative">
+            <div className="image-container-frame overflow-hidden rounded-3xl border border-border relative">
               <div className="force-contain w-full h-full">
                 <ImageSlider images={images} />
               </div>

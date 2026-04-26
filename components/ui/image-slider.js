@@ -107,7 +107,7 @@ export function ImageSlider({ images }) {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`relative flex-shrink-0 w-24 h-16 sm:w-20 sm:h-14 rounded-lg overflow-hidden border-2 transition-all snap-start ${
+              className={`relative flex-shrink-0 w-24 h-16 rounded-lg overflow-hidden border-2 transition-all snap-start ${
                 index === currentIndex ? "border-primary" : "border-transparent hover:border-border"
               }`}
             >
