@@ -147,6 +147,9 @@ export function Footer() {
             <Link href="/aviso-legal" className="text-sm text-secondary-foreground/60 hover:text-white transition-colors">
               Aviso legal
             </Link>
+            <Link href="/politica-cookies" className="text-primary hover:underline">
+            Política de Cookies
+          </Link>
           </div>
         </div>
       </div>
