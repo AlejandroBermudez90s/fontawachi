@@ -119,7 +119,7 @@ export function AboutSection() {
               </div>
             </div>
             <a
-              href="https://www.google.com/maps/search/Fontawachi+Mazarron"
+              href="https://www.google.com/search?sa=X&sca_esv=ef29f624651829e3&rlz=1C1UEAD_esES969ES969&sxsrf=ANbL-n4kBzh3sg34uJzmp1VMCXJeJP4ppw:1777317037510&q=Fontawachi+instalaciones+Rese%C3%B1as&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDIyM7c0tjS0sDA0ALIMDE3MNjAyvmJUdMvPK0ksT0zOyFTIzCsuScxJTM7Mz0stVghKLU49vDGxeBErYTUATDcCC2MAAAA&rldimm=12267939188106790146&tbm=lcl&hl=es-ES&ved=2ahUKEwjw5LH13Y6UAxXL3wIHHTZIIVEQ9fQKegQIShAG&biw=1536&bih=703&dpr=1.25#lkt=LocalPoiReviews"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
