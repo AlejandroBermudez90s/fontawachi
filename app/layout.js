@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { CookieBanner } from "@/components/cookie-banner"
+import { WhatsappButton } from "@/components/whatsapp-button"
+
 
 const geist = Geist({ subsets: ["latin"] });
 const geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -47,6 +49,7 @@ export default function RootLayout({ children }) {
       <body className={`${geist.className} ${geistMono.className} font-sans antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <WhatsappButton />
         <CookieBanner/>
       </body>
     </html>
