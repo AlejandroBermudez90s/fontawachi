@@ -35,16 +35,16 @@ Sigue estos pasos para levantar el proyecto en local:
 ```bash
 git clone [https://github.com/tu-usuario/fontawachi.git](https://github.com/tu-usuario/fontawachi.git)
 cd fontawachi
-````
+```
 ### 2\. Instalar dependencias
 
-Bash
-
+```bash
 npm install  
 \# o bien  
 yarn install  
 \# o bien  
 pnpm install  
+```
 
 ### 3\. Variables de Entorno
 
@@ -56,10 +56,9 @@ RESEND\_API\_KEY=re\_tu\_api\_key\_aqui
 
 ### 4\. Ejecutar el servidor de desarrollo
 
-Bash
-
+```bash
 npm run dev  
-
+```
 Abre[http://localhost:3000](https://www.google.com/search?q=http://localhost:3000)en tu navegador para ver el resultado.
 
 ## 📁 Estructura del Proyecto (Puntos Clave)
